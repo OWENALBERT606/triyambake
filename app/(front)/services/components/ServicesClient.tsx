@@ -141,6 +141,9 @@ export default function ServicesPage() {
           --blue:   #1a3fa8;
           --blue-d: #1535a0;
           --blue-l: #eff3ff;
+          --maroon:   #800020;
+          --maroon-d: #6b001a;
+          --maroon-l: #fff0f3;
           --navy:   #0f1f5c;
           --slate:  #64748b;
           --border: #e2e8f0;
@@ -155,12 +158,12 @@ export default function ServicesPage() {
         /* HERO */
         .sv-hero {
           position:relative; overflow:hidden;
-          background:linear-gradient(145deg, #0f1f5c 0%, #1a3fa8 55%, #1535a0 100%);
+          background:linear-gradient(145deg, #0f1f5c 0%, #1a3fa8 50%, #800020 100%);
           padding:6rem 1.5rem 9rem; text-align:center;
         }
         .sv-blob { position:absolute; border-radius:50%; filter:blur(100px); opacity:0.2; pointer-events:none; }
         .svb1 { width:460px;height:460px; background:radial-gradient(#93c5fd,transparent); top:-160px;right:-80px; }
-        .svb2 { width:320px;height:320px; background:radial-gradient(#bfdbfe,transparent); bottom:-80px;left:-60px; }
+        .svb2 { width:320px;height:320px; background:radial-gradient(#fca5a5,transparent); bottom:-80px;left:-60px; }
         .sv-hero-inner { position:relative; z-index:2; max-width:760px; margin:0 auto; }
         .sv-eyebrow {
           display:inline-flex; align-items:center; gap:0.6rem;
@@ -236,7 +239,7 @@ export default function ServicesPage() {
         .sv-card-cta:hover { gap:0.6rem; }
 
         /* WHY */
-        .sv-why { background:linear-gradient(145deg, #0f1f5c 0%, #1a3fa8 100%); padding:5rem 1.5rem; }
+        .sv-why { background:linear-gradient(145deg, #1a3fa8 0%, #800020 100%); padding:5rem 1.5rem; }
         .sv-why-grid { display:grid; grid-template-columns:repeat(4,1fr); gap:1.5rem; }
         @media(max-width:900px){ .sv-why-grid{ grid-template-columns:repeat(2,1fr); } }
         @media(max-width:500px){ .sv-why-grid{ grid-template-columns:1fr; } }
@@ -259,12 +262,12 @@ export default function ServicesPage() {
         .sv-cta-btns { display:flex; gap:0.85rem; flex-wrap:wrap; flex-shrink:0; }
         .sv-btn-primary {
           display:inline-flex; align-items:center; gap:0.4rem;
-          background:var(--blue); color:#fff;
+          background:linear-gradient(135deg, var(--blue), var(--maroon)); color:#fff;
           font-family:var(--ff-u); font-size:0.88rem; font-weight:700;
           padding:0.8rem 1.75rem; border-radius:0.75rem; text-decoration:none;
           transition:all 0.2s; box-shadow:0 4px 16px #1a3fa840;
         }
-        .sv-btn-primary:hover { background:var(--blue-d); transform:translateY(-2px); }
+        .sv-btn-primary:hover { transform:translateY(-2px); box-shadow:0 8px 24px #80002040; }
         .sv-btn-ghost {
           display:inline-flex; align-items:center; gap:0.4rem;
           background:transparent; color:var(--navy);

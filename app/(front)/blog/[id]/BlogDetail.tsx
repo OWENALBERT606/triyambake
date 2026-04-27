@@ -127,6 +127,9 @@ export default function BlogDetail({ post, related }: { post: Post; related: Pos
           --blue:   #1a3fa8;
           --blue-d: #1535a0;
           --blue-l: #eff3ff;
+          --maroon:   #800020;
+          --maroon-d: #6b001a;
+          --maroon-l: #fff0f3;
           --navy:   #0f1f5c;
           --slate:  #64748b;
           --border: #e2e8f0;
@@ -141,7 +144,7 @@ export default function BlogDetail({ post, related }: { post: Post; related: Pos
         /* HERO */
         .bd-hero {
           position:relative; overflow:hidden;
-          background:linear-gradient(145deg, #0f1f5c 0%, var(--pc, #1a3fa8) 60%, #1535a0 100%);
+          background:linear-gradient(145deg, #0f1f5c 0%, var(--pc, #1a3fa8) 50%, #800020 100%);
           padding:5rem 1.5rem 8rem;
         }
         .bd-hero-overlay {
@@ -204,7 +207,7 @@ export default function BlogDetail({ post, related }: { post: Post; related: Pos
 
         /* Article CTA */
         .bd-article-cta {
-          background:linear-gradient(135deg, #0f1f5c, #1a3fa8);
+          background:linear-gradient(135deg, #1a3fa8, #800020);
           border-radius:1rem; padding:2rem;
           display:flex; align-items:center; justify-content:space-between; gap:1.5rem; flex-wrap:wrap;
         }
@@ -230,7 +233,7 @@ export default function BlogDetail({ post, related }: { post: Post; related: Pos
         /* SIDEBAR */
         .bd-sidebar { display:flex; flex-direction:column; gap:1.25rem; position:sticky; top:1.5rem; }
         .bd-sb-card { background:var(--white); border:1.5px solid var(--border); border-radius:1rem; padding:1.5rem; }
-        .bd-sb-dark { background:linear-gradient(135deg, #0f1f5c, #1a3fa8); border-color:transparent; }
+        .bd-sb-dark { background:linear-gradient(135deg, #1a3fa8, #800020); border-color:transparent; }
         .bd-sb-h3 { font-family:var(--ff-u); font-size:0.82rem; font-weight:700; color:var(--navy); margin:0 0 1rem; text-transform:uppercase; letter-spacing:0.06em; }
         .bd-sb-h3-light { color:#fff; }
         .bd-sb-tag { font-family:var(--ff-u); font-size:0.65rem; font-weight:700; color:#93c5fd; text-transform:uppercase; letter-spacing:0.1em; margin:0 0 0.4rem; display:block; }

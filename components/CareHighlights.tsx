@@ -42,7 +42,7 @@ export function CareHighlights() {
 
           {/* Working Hours */}
           <div className={`anim-hidden anim-delay-3 ${visible ? "anim-visible" : ""}`}>
-            <div className="bg-[#1a3fa8] text-white rounded p-7 h-full">
+            <div className="text-white rounded p-7 h-full" style={{background: 'linear-gradient(135deg, #1a3fa8 0%, #800020 100%)'}}>
               <h3 className="text-base font-extrabold uppercase tracking-wide mb-3">Working Time</h3>
               <p className="text-white/80 text-sm leading-relaxed mb-6">
                 We are open most days of the week to serve you. Walk-ins are welcome, and our emergency unit is available around the clock.

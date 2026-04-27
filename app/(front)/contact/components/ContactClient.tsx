@@ -219,6 +219,9 @@ export default function ContactPage() {
           --blue:   #1a3fa8;
           --blue-d: #1535a0;
           --blue-l: #eff3ff;
+          --maroon:   #800020;
+          --maroon-d: #6b001a;
+          --maroon-l: #fff0f3;
           --navy:   #0f1f5c;
           --slate:  #64748b;
           --border: #e2e8f0;
@@ -236,7 +239,7 @@ export default function ContactPage() {
         .ct-hero-img-wrap { position:absolute; inset:0; }
         .ct-hero-overlay {
           position:absolute; inset:0;
-          background:linear-gradient(to right, #0f1f5ccc 40%, #0f1f5c55 100%);
+          background:linear-gradient(to right, #0f1f5ccc 30%, #80002066 100%);
         }
         .ct-hero-content {
           position:absolute; bottom:140px; left:0; right:0;
@@ -253,7 +256,7 @@ export default function ContactPage() {
         /* info bar */
         .ct-info-bar {
           position:absolute; bottom:0; right:0; z-index:3;
-          background:var(--blue); width:60%;
+          background:linear-gradient(135deg, var(--blue), var(--maroon)); width:60%;
         }
         @media(max-width:768px){ .ct-info-bar{ width:100%; position:relative; } }
         .ct-info-bar-inner {
@@ -304,12 +307,12 @@ export default function ContactPage() {
         .ct-err { display:flex; align-items:center; gap:0.3rem; font-family:var(--ff-u); font-size:0.68rem; color:var(--err); margin:0; }
         .ct-submit {
           display:inline-flex; align-items:center; justify-content:center; gap:0.5rem;
-          background:var(--blue); color:#fff;
+          background:linear-gradient(135deg, var(--blue), var(--maroon)); color:#fff;
           font-family:var(--ff-u); font-size:0.88rem; font-weight:700;
           padding:0.85rem 2rem; border:none; border-radius:0.75rem;
           cursor:pointer; transition:all 0.2s; box-shadow:0 4px 16px #1a3fa840;
         }
-        .ct-submit:hover:not(:disabled) { background:var(--blue-d); transform:translateY(-2px); box-shadow:0 8px 24px #1a3fa860; }
+        .ct-submit:hover:not(:disabled) { transform:translateY(-2px); box-shadow:0 8px 24px #80002050; }
         .ct-submit:disabled { opacity:0.7; cursor:not-allowed; }
         .ct-spinner {
           width:14px; height:14px; border:2px solid #ffffff40;
@@ -367,7 +370,7 @@ export default function ContactPage() {
 
         /* ── FAQ ── */
         .ct-faq-section {
-          background:linear-gradient(145deg, #0f1f5c 0%, #1a3fa8 100%);
+          background:linear-gradient(145deg, #1a3fa8 0%, #800020 100%);
           padding:5rem 1.5rem;
         }
         .ct-faq-header { text-align:center; margin-bottom:3rem; }

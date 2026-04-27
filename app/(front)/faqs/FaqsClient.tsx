@@ -176,12 +176,12 @@ export default function FaqsClient() {
       </section>
 
       <style>{`
-        .fq-root{--blue:#1a3fa8;--blue-d:#1535a0;--blue-l:#eff3ff;--navy:#0f1f5c;--slate:#64748b;--border:#e2e8f0;--white:#ffffff;--off:#f8fafc;--ff-s:'Georgia','Charter',serif;--ff-u:'Trebuchet MS','Tahoma',sans-serif;overflow-x:hidden;}
+        .fq-root{--blue:#1a3fa8;--blue-d:#1535a0;--blue-l:#eff3ff;--maroon:#800020;--maroon-d:#6b001a;--maroon-l:#fff0f3;--navy:#0f1f5c;--slate:#64748b;--border:#e2e8f0;--white:#ffffff;--off:#f8fafc;--ff-s:'Georgia','Charter',serif;--ff-u:'Trebuchet MS','Tahoma',sans-serif;overflow-x:hidden;}
         .fq-container{max-width:1200px;margin:0 auto;}
-        .fq-hero{position:relative;overflow:hidden;background:linear-gradient(145deg,#0f1f5c 0%,#1a3fa8 55%,#1535a0 100%);padding:6rem 1.5rem 9rem;text-align:center;}
+        .fq-hero{position:relative;overflow:hidden;background:linear-gradient(145deg,#0f1f5c 0%,#1a3fa8 50%,#800020 100%);padding:6rem 1.5rem 9rem;text-align:center;}
         .fq-blob{position:absolute;border-radius:50%;filter:blur(100px);opacity:0.2;pointer-events:none;}
         .fb1{width:460px;height:460px;background:radial-gradient(#93c5fd,transparent);top:-160px;right:-80px;}
-        .fb2{width:320px;height:320px;background:radial-gradient(#bfdbfe,transparent);bottom:-80px;left:-60px;}
+        .fb2{width:320px;height:320px;background:radial-gradient(#fca5a5,transparent);bottom:-80px;left:-60px;}
         .fq-hero-inner{position:relative;z-index:2;max-width:760px;margin:0 auto;}
         .fq-eyebrow{display:inline-flex;align-items:center;gap:0.6rem;font-family:var(--ff-u);font-size:0.72rem;font-weight:700;letter-spacing:0.14em;text-transform:uppercase;color:#93c5fd;margin-bottom:1.25rem;}
         .fq-dash{display:inline-block;width:28px;height:2px;background:#93c5fd;border-radius:2px;}
@@ -208,7 +208,7 @@ export default function FaqsClient() {
         .fq-cat-active{background:var(--blue-l)!important;color:var(--blue)!important;font-weight:700!important;}
         .fq-cat-count{margin-left:auto;font-size:0.68rem;font-weight:700;background:var(--border);color:var(--slate);padding:0.1rem 0.5rem;border-radius:99px;}
         .fq-cat-active .fq-cat-count{background:var(--blue);color:#fff;}
-        .fq-sb-contact{margin-top:1rem;padding:1.25rem;border-radius:0.85rem;background:linear-gradient(135deg,#0f1f5c,#1a3fa8);display:flex;flex-direction:column;align-items:flex-start;gap:0.4rem;}
+        .fq-sb-contact{margin-top:1rem;padding:1.25rem;border-radius:0.85rem;background:linear-gradient(135deg,#1a3fa8,#800020);display:flex;flex-direction:column;align-items:flex-start;gap:0.4rem;}
         .fq-sb-icon{color:#93c5fd;}
         .fq-sb-title{font-family:var(--ff-u);font-size:0.82rem;font-weight:700;color:#fff;margin:0;}
         .fq-sb-sub{font-family:var(--ff-u);font-size:0.7rem;color:#bfdbfe;margin:0;}
@@ -232,7 +232,7 @@ export default function FaqsClient() {
         .fq-no-results{display:flex;flex-direction:column;align-items:center;text-align:center;padding:4rem 1rem;gap:1rem;color:var(--slate);}
         .fq-no-results p{font-family:var(--ff-s);font-size:1rem;margin:0;}
         .fq-no-results button{background:var(--blue);color:#fff;font-family:var(--ff-u);font-size:0.82rem;font-weight:700;padding:0.6rem 1.25rem;border:none;border-radius:0.65rem;cursor:pointer;}
-        .fq-cta{background:linear-gradient(145deg,#0f1f5c 0%,#1a3fa8 100%);padding:4rem 1.5rem;}
+        .fq-cta{background:linear-gradient(145deg,#1a3fa8 0%,#800020 100%);padding:4rem 1.5rem;}
         .fq-cta-inner{display:flex;align-items:center;justify-content:space-between;gap:2rem;flex-wrap:wrap;max-width:1200px;margin:0 auto;}
         .fq-cta-h2{font-family:var(--ff-s);font-size:2rem;font-weight:800;color:#fff;margin:0 0 0.4rem;}
         .fq-cta-sub{font-family:var(--ff-s);font-size:0.9rem;color:#bfdbfe;margin:0;}

@@ -8,7 +8,7 @@ export function CallToAction() {
   return (
     <section className="relative min-h-[320px] flex items-center justify-center text-center overflow-hidden bg-[#0f1f5c]">
       <div className="absolute inset-0 bg-cover bg-center" style={{ backgroundImage: "url('/img-20220921-wa0028-jpg.jpg')" }} />
-      <div className="absolute inset-0 bg-[#0f1f5c]/75" />
+      <div className="absolute inset-0" style={{background: 'linear-gradient(135deg, #0f1f5c99 0%, #80002099 100%)'}} />
 
       <div ref={sec as React.RefObject<HTMLDivElement>} className={`relative z-10 px-6 py-16 anim-scale ${visible ? "anim-visible" : ""}`}>
         <svg className="w-14 h-14 mx-auto mb-6 text-white/80" viewBox="0 0 64 64" fill="none" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round">

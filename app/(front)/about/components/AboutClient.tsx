@@ -258,6 +258,9 @@ export default function AboutPage() {
           --blue:   #1a3fa8;
           --blue-d: #1535a0;
           --blue-l: #eff3ff;
+          --maroon:   #800020;
+          --maroon-d: #6b001a;
+          --maroon-l: #fff0f3;
           --navy:   #0f1f5c;
           --slate:  #64748b;
           --border: #e2e8f0;
@@ -295,12 +298,12 @@ export default function AboutPage() {
         /* ── HERO ── */
         .ab-hero {
           position:relative; overflow:hidden;
-          background:linear-gradient(145deg, #0f1f5c 0%, #1a3fa8 55%, #1535a0 100%);
+          background:linear-gradient(145deg, #0f1f5c 0%, #1a3fa8 50%, #800020 100%);
           padding:7rem 1.5rem 9rem; text-align:center;
         }
         .hero-blob { position:absolute; border-radius:50%; filter:blur(90px); opacity:0.2; pointer-events:none; }
         .b1{ width:500px;height:500px; background:radial-gradient(#93c5fd,transparent); top:-150px;right:-100px; }
-        .b2{ width:350px;height:350px; background:radial-gradient(#bfdbfe,transparent); bottom:-80px;left:-60px; }
+        .b2{ width:350px;height:350px; background:radial-gradient(#fca5a5,transparent); bottom:-80px;left:-60px; }
 
         .ab-hero-inner { position:relative; z-index:2; max-width:860px; margin:0 auto; }
         .page-eyebrow {
@@ -346,7 +349,7 @@ export default function AboutPage() {
 
         /* ── MISSION & VISION ── */
         .ab-mission {
-          background:linear-gradient(145deg, #0f1f5c 0%, #1a3fa8 100%);
+          background:linear-gradient(145deg, #0f1f5c 0%, #800020 100%);
           padding:5rem 1.5rem;
         }
         .mv-grid { display:grid; grid-template-columns:1fr 1fr; gap:2rem; }
@@ -373,7 +376,7 @@ export default function AboutPage() {
 
         /* ── CORE VALUES ── */
         .ab-values {
-          background:linear-gradient(145deg, #0f1f5c 0%, #1a3fa8 100%);
+          background:linear-gradient(145deg, #1a3fa8 0%, #800020 100%);
           padding:5rem 1.5rem;
         }
         .values-layout { display:grid; grid-template-columns:1fr 1fr; gap:3rem; align-items:start; }
@@ -424,7 +427,7 @@ export default function AboutPage() {
         }
         .tl-dot {
           width:60px; height:60px; border-radius:50%; flex-shrink:0;
-          background:var(--blue); color:#fff;
+          background:linear-gradient(135deg, var(--blue), var(--maroon)); color:#fff;
           display:grid; place-items:center;
           font-family:var(--ff-u); font-size:0.72rem; font-weight:800;
           text-align:center; line-height:1.2;
@@ -441,7 +444,7 @@ export default function AboutPage() {
 
         /* ── CTA ── */
         .ab-cta-banner {
-          background:linear-gradient(135deg, #0f1f5c 0%, #1a3fa8 100%);
+          background:linear-gradient(135deg, #1a3fa8 0%, #800020 100%);
           padding:5rem 1.5rem;
         }
         .cta-inner {

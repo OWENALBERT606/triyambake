@@ -158,6 +158,9 @@ export function Header() {
           --teal:   #1a3fa8;
           --teal-d: #1535a0;
           --teal-l: #eff3ff;
+          --maroon:   #800020;
+          --maroon-d: #6b001a;
+          --maroon-l: #fff0f3;
           --navy:   #0f1f5c;
           --slate:  #475569;
           --border: #e2e8f0;
@@ -178,7 +181,7 @@ export function Header() {
         .hd-nav{max-width:1280px;margin:0 auto;padding:0 1.5rem;height:66px;display:flex;align-items:center;gap:1.5rem;}
 
         .hd-logo{display:flex;align-items:center;gap:0.65rem;text-decoration:none;flex-shrink:0;}
-        .hd-logo-icon{width:40px;height:40px;background:linear-gradient(135deg,var(--teal),#0ea5e9);border-radius:10px;display:grid;place-items:center;font-family:var(--ff-s);font-size:1rem;font-weight:900;color:#fff;box-shadow:0 4px 12px #0d948840;letter-spacing:-0.03em;}
+        .hd-logo-icon{width:40px;height:40px;background:linear-gradient(135deg,var(--teal),var(--maroon));border-radius:10px;display:grid;place-items:center;font-family:var(--ff-s);font-size:1rem;font-weight:900;color:#fff;box-shadow:0 4px 12px #1a3fa840;letter-spacing:-0.03em;}
         .hd-logo-name{display:block;font-family:var(--ff-s);font-size:1.2rem;font-weight:800;color:var(--navy);line-height:1;letter-spacing:-0.02em;}
         .hd-logo-name em{color:var(--teal);font-style:normal;}
         .hd-logo-sub{display:block;font-family:var(--ff-u);font-size:0.55rem;font-weight:700;letter-spacing:0.1em;text-transform:uppercase;color:#94a3b8;margin-top:2px;}
@@ -197,8 +200,8 @@ export function Header() {
         .hd-btn-ghost{display:inline-flex;align-items:center;gap:0.4rem;font-family:var(--ff-u);font-size:0.8rem;font-weight:600;color:var(--navy);border:1.5px solid var(--border);background:var(--white);padding:0.5rem 1rem;border-radius:0.65rem;text-decoration:none;cursor:pointer;transition:all 0.18s;}
         .hd-btn-ghost:hover{border-color:var(--teal);color:var(--teal-d);background:var(--teal-l);}
         .hd-btn-ghost svg{color:var(--teal);}
-        .hd-btn-primary{display:inline-flex;align-items:center;gap:0.4rem;font-family:var(--ff-u);font-size:0.82rem;font-weight:700;color:#fff;background:linear-gradient(135deg,var(--teal),#0ea5e9);padding:0.55rem 1.15rem;border-radius:0.65rem;border:none;cursor:pointer;box-shadow:0 4px 14px #0d948838;transition:transform 0.18s,box-shadow 0.18s;}
-        .hd-btn-primary:hover{transform:translateY(-2px);box-shadow:0 7px 20px #0d948858;}
+        .hd-btn-primary{display:inline-flex;align-items:center;gap:0.4rem;font-family:var(--ff-u);font-size:0.82rem;font-weight:700;color:#fff;background:linear-gradient(135deg,var(--teal),var(--maroon));padding:0.55rem 1.15rem;border-radius:0.65rem;border:none;cursor:pointer;box-shadow:0 4px 14px #1a3fa838;transition:transform 0.18s,box-shadow 0.18s;}
+        .hd-btn-primary:hover{transform:translateY(-2px);box-shadow:0 7px 20px #80002058;}
 
         .hd-burger{display:none;background:none;border:none;color:var(--navy);cursor:pointer;padding:0.4rem;border-radius:0.5rem;transition:background 0.18s;margin-left:auto;}
         .hd-burger:hover{background:var(--teal-l);color:var(--teal-d);}
@@ -222,8 +225,8 @@ export function Header() {
         .hd-mob-btn-outline{display:flex;align-items:center;justify-content:center;gap:0.4rem;font-family:var(--ff-u);font-size:0.85rem;font-weight:600;color:var(--navy);border:1.5px solid var(--border);background:var(--white);padding:0.72rem;border-radius:0.75rem;text-decoration:none;transition:all 0.18s;}
         .hd-mob-btn-outline:hover{border-color:var(--teal);color:var(--teal-d);background:var(--teal-l);}
         .hd-mob-btn-outline svg{color:var(--teal);}
-        .hd-mob-btn-solid{display:flex;align-items:center;justify-content:center;gap:0.45rem;font-family:var(--ff-u);font-size:0.9rem;font-weight:700;color:#fff;background:linear-gradient(135deg,var(--teal),#0ea5e9);padding:0.8rem;border-radius:0.75rem;border:none;cursor:pointer;box-shadow:0 4px 16px #0d948840;transition:transform 0.18s,box-shadow 0.18s;}
-        .hd-mob-btn-solid:hover{transform:translateY(-1px);box-shadow:0 7px 22px #0d948860;}
+        .hd-mob-btn-solid{display:flex;align-items:center;justify-content:center;gap:0.45rem;font-family:var(--ff-u);font-size:0.9rem;font-weight:700;color:#fff;background:linear-gradient(135deg,var(--teal),var(--maroon));padding:0.8rem;border-radius:0.75rem;border:none;cursor:pointer;box-shadow:0 4px 16px #1a3fa840;transition:transform 0.18s,box-shadow 0.18s;}
+        .hd-mob-btn-solid:hover{transform:translateY(-1px);box-shadow:0 7px 22px #80002060;}
       `}</style>
     </>
   )

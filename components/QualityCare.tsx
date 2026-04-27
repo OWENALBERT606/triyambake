@@ -18,7 +18,7 @@ export function QualityCare() {
           className="object-cover object-center"
         />
       </div>
-      <div ref={right as React.RefObject<HTMLDivElement>} className={`bg-[#1a3fa8] flex items-center px-10 py-14 anim-right ${rv ? "anim-visible" : ""}`}>
+      <div ref={right as React.RefObject<HTMLDivElement>} className={`flex items-center px-10 py-14 anim-right ${rv ? "anim-visible" : ""}`} style={{background: 'linear-gradient(135deg, #1a3fa8 0%, #800020 100%)'}}>
         <div className="max-w-md">
           <p className="text-white/70 text-xs font-bold uppercase tracking-widest mb-4">Highest Quality Care</p>
           <h2 className="text-white text-3xl md:text-4xl font-bold leading-snug mb-5">

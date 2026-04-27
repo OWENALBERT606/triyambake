@@ -4,7 +4,7 @@
 
 /* =========================================================
    GGWAATIRO HOSPITAL DESIGN TOKENS
-   Brand palette: Royal Blue • White • Navy
+   Brand palette: Royal Blue • Maroon • White
 ========================================================= */
 
 :root {
@@ -23,15 +23,15 @@
   --primary: oklch(0.42 0.18 260);
   --primary-foreground: oklch(1 0 0);
 
-  /* Secondary – lighter blue */
-  --secondary: oklch(0.60 0.14 255);
+  /* 🔴 Secondary – Maroon */
+  --secondary: oklch(0.38 0.16 15);
   --secondary-foreground: oklch(1 0 0);
 
   --muted: oklch(0.95 0.01 240);
   --muted-foreground: oklch(0.45 0.03 240);
 
-  /* Accent – sky blue */
-  --accent: oklch(0.65 0.15 240);
+  /* Accent – maroon tint */
+  --accent: oklch(0.38 0.16 15);
   --accent-foreground: oklch(1 0 0);
 
   --destructive: oklch(0.60 0.22 25);
@@ -43,10 +43,10 @@
 
   /* Charts */
   --chart-1: oklch(0.42 0.18 260);
-  --chart-2: oklch(0.60 0.14 255);
-  --chart-3: oklch(0.65 0.15 240);
-  --chart-4: oklch(0.55 0.16 270);
-  --chart-5: oklch(0.50 0.12 230);
+  --chart-2: oklch(0.38 0.16 15);
+  --chart-3: oklch(0.55 0.18 260);
+  --chart-4: oklch(0.50 0.14 15);
+  --chart-5: oklch(0.30 0.12 250);
 
   --radius: 0.75rem;
 
@@ -62,9 +62,10 @@
 
   /* Effects */
   --blue-glow: oklch(0.42 0.18 260 / 0.3);
+  --maroon-glow: oklch(0.38 0.16 15 / 0.3);
 
   --gradient-start: oklch(0.42 0.18 260);
-  --gradient-end: oklch(0.30 0.16 265);
+  --gradient-end: oklch(0.38 0.16 15);
 }
 
 /* =========================================================
@@ -84,13 +85,13 @@
   --primary: oklch(0.55 0.18 255);
   --primary-foreground: oklch(0.12 0.03 255);
 
-  --secondary: oklch(0.65 0.14 250);
+  --secondary: oklch(0.50 0.18 15);
   --secondary-foreground: oklch(0.12 0.03 255);
 
   --muted: oklch(0.22 0.03 255);
   --muted-foreground: oklch(0.65 0.02 240);
 
-  --accent: oklch(0.60 0.15 245);
+  --accent: oklch(0.50 0.18 15);
   --accent-foreground: oklch(0.12 0.03 255);
 
   --destructive: oklch(0.62 0.24 25);
@@ -150,7 +151,7 @@
 
 @layer components {
   .btn-primary-gradient {
-    @apply bg-gradient-to-r from-blue-700 to-blue-500 text-white font-medium;
+    @apply bg-gradient-to-r from-blue-700 to-red-800 text-white font-medium;
     @apply hover:shadow-lg hover:shadow-blue-700/30 transition-all;
     @apply hover:-translate-y-0.5 active:translate-y-0;
   }
@@ -170,8 +171,17 @@
     box-shadow: 0 0 40px var(--blue-glow);
   }
 
+  .glow-maroon {
+    box-shadow: 0 0 40px var(--maroon-glow);
+  }
+
   .badge-blue {
     @apply bg-blue-100 text-blue-800 dark:bg-blue-900/30 dark:text-blue-300;
+    @apply inline-flex px-2.5 py-0.5 rounded-full text-xs font-medium;
+  }
+
+  .badge-maroon {
+    @apply bg-red-100 text-red-900 dark:bg-red-900/30 dark:text-red-300;
     @apply inline-flex px-2.5 py-0.5 rounded-full text-xs font-medium;
   }
 }
@@ -182,12 +192,12 @@
 
 @layer utilities {
   .text-gradient-brand {
-    @apply bg-gradient-to-r from-blue-800 via-blue-600 to-blue-400;
+    @apply bg-gradient-to-r from-blue-800 via-red-800 to-blue-600;
     @apply bg-clip-text text-transparent;
   }
 
   .bg-gradient-brand {
-    @apply bg-gradient-to-br from-blue-800 to-blue-600;
+    @apply bg-gradient-to-br from-blue-800 to-red-900;
   }
 
   .animate-float {

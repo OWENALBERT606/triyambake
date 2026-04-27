@@ -295,7 +295,7 @@ export function Services() {
         }
         .deco-b {
           width: 380px; height: 380px;
-          background: radial-gradient(circle, #bfdbfe, transparent);
+          background: radial-gradient(circle, #fca5a5, transparent);
           bottom: 0; left: -80px;
         }
 
@@ -567,7 +567,7 @@ export function Services() {
 
         /* ── cta banner ── */
         .cta-banner {
-          background: linear-gradient(135deg, var(--navy) 0%, #1e4a7a 100%);
+          background: linear-gradient(135deg, var(--navy) 0%, #800020 100%);
           border-radius: 1.5rem;
           padding: 2.5rem 2.5rem;
           display: flex;
@@ -582,7 +582,7 @@ export function Services() {
           content: '';
           position: absolute;
           width: 300px; height: 300px;
-          background: radial-gradient(circle, #5eead420, transparent);
+          background: radial-gradient(circle, #fca5a520, transparent);
           top: -80px; right: 100px;
           border-radius: 50%;
         }
@@ -606,7 +606,7 @@ export function Services() {
           flex-wrap: wrap;
         }
         .btn-teal {
-          background: linear-gradient(135deg, #1a3fa8, #2563eb);
+          background: linear-gradient(135deg, #1a3fa8, #800020);
           color: #fff;
           font-family: var(--fs-ui);
           font-size: 0.88rem;
@@ -618,7 +618,7 @@ export function Services() {
           transition: transform 0.2s, box-shadow 0.2s;
           box-shadow: 0 2px 10px #1a3fa820;
         }
-        .btn-teal:hover { transform: translateY(-2px); box-shadow: 0 4px 16px #1a3fa830; }
+        .btn-teal:hover { transform: translateY(-2px); box-shadow: 0 4px 16px #80002030; }
         .btn-outline {
           background: transparent;
           color: #fff;
