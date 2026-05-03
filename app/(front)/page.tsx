@@ -63,9 +63,7 @@ export default function HomePage() {
       "longitude": "32.6517"
     },
     "openingHoursSpecification": [
-      { "@type": "OpeningHoursSpecification", "dayOfWeek": ["Monday","Tuesday","Wednesday"], "opens": "09:00", "closes": "19:00" },
-      { "@type": "OpeningHoursSpecification", "dayOfWeek": ["Thursday"], "opens": "09:00", "closes": "18:30" },
-      { "@type": "OpeningHoursSpecification", "dayOfWeek": ["Friday"], "opens": "09:00", "closes": "18:00" }
+      { "@type": "OpeningHoursSpecification", "dayOfWeek": ["Monday","Tuesday","Wednesday","Thursday","Friday","Saturday","Sunday"], "opens": "00:00", "closes": "23:59" }
     ],
     "medicalSpecialty": [
       "General Practice","Obstetrics","Gynecology","Pediatrics","Surgery","Dentistry","Ophthalmology","Physiotherapy","Orthopedics"
@@ -88,7 +86,7 @@ export default function HomePage() {
         <DoctorsSection />
         <CallToAction />
         <AppointmentForm />
-        <Testimonials />
+        {/* <Testimonials /> */}
       </main>
     </>
   );

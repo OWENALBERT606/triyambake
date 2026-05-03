@@ -21,7 +21,7 @@ const categories = [
 
 const faqs = [
   { id:"a1", cat:"appointments", q:"How do I book an appointment?", a:"You can book by calling us on +256 772 428 467, walking in during working hours, or sending us a message through the Contact page. We will confirm your appointment as soon as possible." },
-  { id:"a2", cat:"appointments", q:"Do you accept walk-in patients?", a:"Yes, we accept walk-in patients during our working hours (Mon–Fri 9am–7pm, Thu until 6:30pm, Fri until 6pm). For emergencies, our team is available 24/7." },
+  { id:"a2", cat:"appointments", q:"Do you accept walk-in patients?", a:"Yes, we accept walk-in patients 24 hours a day, 7 days a week. No appointment needed — our team is always ready to receive you." },
   { id:"a3", cat:"appointments", q:"What should I bring to my appointment?", a:"Please bring a valid ID, any previous medical records or test results relevant to your visit, and your insurance card if applicable. Arriving a few minutes early helps with registration." },
   { id:"a4", cat:"appointments", q:"Can I book for a family member?", a:"Yes. You can book on behalf of a family member, including children and elderly relatives. Please provide their details when booking." },
   { id:"s1", cat:"services", q:"What services does Ggwaatiro Hospital offer?", a:"We offer general outpatient services, inpatient/admission services, antenatal care and maternity, immunization and vaccination, ultrasound/imaging, digitalised dental services, eye specialists, laboratory services, HN/DM clinic, minor & major surgical operations, 24/7 ambulance, general medication, obstetric and gynaecological programs, family planning, palliative care, physiotherapy, and orthopedics." },
@@ -40,7 +40,7 @@ const faqs = [
   { id:"l2", cat:"lab", q:"Do you offer ultrasound and imaging?", a:"Yes. We have ultrasound scanning and imaging services available for obstetric, abdominal, and other diagnostic purposes." },
   { id:"l3", cat:"lab", q:"How long do lab results take?", a:"Most routine lab results are available within the same day. Some specialised tests may take longer. Our team will advise you on the expected turnaround time." },
   { id:"lo1", cat:"location", q:"Where is Ggwaatiro Hospital located?", a:"We are located in Bweyogerere Ward, Kira Town Council — approximately 10 km from Kampala City Centre and about 200m off the Kampala–Jinja highway from Bweyogerere trading centre." },
-  { id:"lo2", cat:"location", q:"What are your working hours?", a:"Monday–Wednesday: 9:00 AM – 7:00 PM. Thursday: 9:00 AM – 6:30 PM. Friday: 9:00 AM – 6:00 PM. Emergency services are available 24/7." },
+  { id:"lo2", cat:"location", q:"What are your working hours?", a:"We are open 24 hours a day, 7 days a week. You can visit or call us at any time." },
   { id:"lo3", cat:"location", q:"How can I contact the hospital?", a:"Phone: +256 772 428 467. Email: gwatiro@gmail.com. P.O. Box 2933, Kampala." },
   { id:"g1", cat:"general", q:"How long has Ggwaatiro Hospital been operating?", a:"Ggwaatiro Hospital was founded in 1989 by Dr. Katumba Joseph. It started as a small dispensary in Kirinya, became a nursing home in Bweyogerere, and was officially recognised as a hospital by the Ministry of Health in 2012." },
   { id:"g2", cat:"general", q:"How many staff does the hospital have?", a:"The hospital currently has 87 employees — both medical and support staff — dedicated to providing quality healthcare to our patients." },

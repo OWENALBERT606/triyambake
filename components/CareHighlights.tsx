@@ -4,10 +4,7 @@ import Image from "next/image";
 import { useInView } from "@/hooks/use-in-view";
 
 const hours = [
-  { day: "Mon – Wed", time: "9:00 AM - 7:00 PM", closed: false },
-  { day: "Thursday",  time: "9:00 AM - 6:30 PM", closed: false },
-  { day: "Friday",    time: "9:00 AM - 6:00 PM", closed: false },
-  { day: "Sat – Sun", time: "Closed",             closed: true  },
+  { day: "Every Day", time: "Open 24 Hours", closed: false },
 ];
 
 export function CareHighlights() {
@@ -45,7 +42,7 @@ export function CareHighlights() {
             <div className="text-white rounded p-7 h-full" style={{background: 'linear-gradient(135deg, #1a3fa8 0%, #800020 100%)'}}>
               <h3 className="text-base font-extrabold uppercase tracking-wide mb-3">Working Time</h3>
               <p className="text-white/80 text-sm leading-relaxed mb-6">
-                We are open most days of the week to serve you. Walk-ins are welcome, and our emergency unit is available around the clock.
+                We are open 24 hours a day, 7 days a week. Walk-ins are welcome any time, day or night.
               </p>
               <div className="space-y-3">
                 {hours.map(({ day, time, closed }) => (

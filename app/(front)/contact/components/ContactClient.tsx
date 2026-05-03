@@ -5,18 +5,15 @@ import Image from "next/image";
 import { Phone, Mail, MapPin, Clock, Send, CheckCircle, AlertCircle, Shield, ChevronDown } from "lucide-react";
 
 const faqs = [
-  { q: "How do I book an appointment?", a: "You can call us on +256 772 428 467, walk in during working hours, or use the contact form on this page. We will confirm your appointment promptly." },
-  { q: "Do you accept walk-in patients?", a: "Yes, we accept walk-in patients during our working hours. For emergencies, our team is available 24/7." },
+  { q: "How do I book an appointment?", a: "You can call us on +256 772 428 467, walk in any time, or use the contact form on this page. We will confirm your appointment promptly." },
+  { q: "Do you accept walk-in patients?", a: "Yes, we accept walk-in patients 24 hours a day, 7 days a week." },
   { q: "Where exactly are you located?", a: "We are located in Bweyogerere Ward, Kira Town Council — about 10 km from Kampala City Centre and 200m off the Kampala–Jinja highway." },
   { q: "What services do you offer?", a: "We offer general outpatient & inpatient services, maternity care, surgery, dental, eye care, laboratory, ultrasound, physiotherapy, and 24/7 ambulance services." },
   { q: "Do you have emergency services?", a: "Yes. Our emergency unit and ambulance service operate 24 hours a day, 7 days a week." },
 ];
 
 const hours = [
-  { day: "Mon – Wed", time: "9:00 AM – 7:00 PM" },
-  { day: "Thursday",  time: "9:00 AM – 6:30 PM" },
-  { day: "Friday",    time: "9:00 AM – 6:00 PM" },
-  { day: "Sat – Sun", time: "Closed (Emergency only)" },
+  { day: "Every Day", time: "Open 24 Hours" },
 ];
 
 function useInView(threshold = 0.1) {
@@ -164,10 +161,6 @@ export default function ContactPage() {
                     <span className="ct-hours-time">{h.time}</span>
                   </div>
                 ))}
-                <div className="ct-hours-row ct-hours-emerg">
-                  <span className="ct-hours-day">Emergency</span>
-                  <span className="ct-hours-time">24 / 7</span>
-                </div>
               </div>
             </div>
 

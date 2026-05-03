@@ -9,7 +9,7 @@ import {
 } from "lucide-react";
 
 const services = [
-  { id:"outpatient",  icon: Stethoscope, label: "General Outpatient Services",         color:"#1a3fa8", desc:"Consultations, diagnosis, and treatment for all general medical conditions. Walk-ins welcome during working hours." },
+  { id:"outpatient",  icon: Stethoscope, label: "General Outpatient Services",         color:"#1a3fa8", desc:"Consultations, diagnosis, and treatment for all general medical conditions. Walk-ins welcome 24 hours a day, 7 days a week." },
   { id:"inpatient",   icon: Activity,    label: "Inpatient / Admission Services",       color:"#1535a0", desc:"Full inpatient care with comfortable wards, 24-hour nursing, and round-the-clock doctor supervision." },
   { id:"maternity",   icon: Baby,        label: "Antenatal Care & Maternity Services",  color:"#2563eb", desc:"Comprehensive pregnancy care from first trimester through safe delivery and postnatal support." },
   { id:"immunization",icon: Shield,      label: "Immunization & Vaccination Services",  color:"#1d4ed8", desc:"National immunization schedule for infants and children, plus adult vaccination programmes." },

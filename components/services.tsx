@@ -2,107 +2,83 @@
 
 import { useEffect, useRef, useState } from "react";
 import {
-  Heart,
-  Activity,
-  Users,
-  Clock,
-  Brain,
+  Scan,
   Baby,
-  Bone,
-  Eye,
+  Scissors,
   Stethoscope,
+  Users,
   FlaskConical,
-  Ambulance,
-  Shield,
+  ScanLine,
+  Waves,
 } from "lucide-react";
 
 const featured = [
   {
-    icon: Heart,
-    title: "Cardiology",
-    tag: "Heart & Vascular",
+    icon: Scan,
+    title: "Radiology",
+    tag: "Imaging & Diagnostics",
     description:
-      "Advanced diagnostics and treatment for heart disease, arrhythmias, hypertension, and vascular conditions — backed by a team of board-certified cardiologists.",
-    stats: ["2,400+ procedures", "98% success rate"],
-    color: "#ef4444",
-    bg: "#fff1f2",
-    border: "#fecaca",
-  },
-  {
-    icon: Brain,
-    title: "Neurology",
-    tag: "Brain & Spine",
-    description:
-      "Comprehensive care for neurological disorders including stroke, epilepsy, Parkinson's, and spine conditions using state-of-the-art imaging and intervention.",
-    stats: ["1,800+ cases", "24h rapid response"],
-    color: "#8b5cf6",
-    bg: "#f5f3ff",
-    border: "#ddd6fe",
-  },
-  {
-    icon: Activity,
-    title: "General Medicine",
-    tag: "Primary Care",
-    description:
-      "Complete primary care including preventive screenings, chronic disease management, and wellness consultations for patients of all demographics.",
-    stats: ["12k+ patients", "Same-day appointments"],
+      "Accurate diagnostic imaging including ultrasound scans for obstetric, abdominal, and pelvic assessments — with prompt same-day reporting to guide your treatment.",
+    stats: ["Ultrasound scans", "Same-day reporting"],
     color: "#1a3fa8",
     bg: "#eff3ff",
     border: "#bfdbfe",
   },
   {
     icon: Baby,
-    title: "Pediatrics",
-    tag: "Child Health",
+    title: "Obstetrics",
+    tag: "Maternity & Birth",
     description:
-      "Specialized medical care for newborns, children, and adolescents — from routine immunizations to complex pediatric conditions managed with compassion.",
-    stats: ["5k+ children", "NICU certified"],
-    color: "#f59e0b",
-    bg: "#fffbeb",
-    border: "#fde68a",
+      "Comprehensive maternity care from first antenatal visit through safe delivery and postnatal support — with experienced midwives and obstetricians available around the clock.",
+    stats: ["24/7 maternity unit", "Safe deliveries"],
+    color: "#ec4899",
+    bg: "#fdf2f8",
+    border: "#fbcfe8",
+  },
+  {
+    icon: Scissors,
+    title: "Surgery",
+    tag: "Surgical Services",
+    description:
+      "Minor and major surgical operations performed by experienced surgeons in a fully equipped theatre — ensuring patient safety and effective outcomes at every stage.",
+    stats: ["Minor & major ops", "Experienced surgeons"],
+    color: "#800020",
+    bg: "#fff0f3",
+    border: "#fecdd3",
+  },
+  {
+    icon: Stethoscope,
+    title: "General Medicine",
+    tag: "Primary Care",
+    description:
+      "Complete outpatient and inpatient care including consultations, chronic disease management, malaria treatment, and wellness services for patients of all ages.",
+    stats: ["Walk-ins welcome", "Inpatient admitted"],
+    color: "#0f1f5c",
+    bg: "#f0f4ff",
+    border: "#c7d2fe",
   },
 ];
 
 const secondary = [
   {
     icon: Users,
-    title: "Family Care",
-    desc: "Holistic care plans for every generation",
-  },
-  {
-    icon: Clock,
-    title: "24/7 Emergency",
-    desc: "Rapid-response around the clock",
-  },
-  {
-    icon: Bone,
-    title: "Orthopedics",
-    desc: "Joint, bone & sports injury treatment",
-  },
-  {
-    icon: Eye,
-    title: "Ophthalmology",
-    desc: "Vision care & surgical solutions",
-  },
-  {
-    icon: Stethoscope,
-    title: "Internal Medicine",
-    desc: "Complex adult medical conditions",
+    title: "Family Planning & Immunisation",
+    desc: "Contraception counselling, family planning, and vaccination services for all ages",
   },
   {
     icon: FlaskConical,
-    title: "Diagnostics & Lab",
-    desc: "Fast, accurate test results on-site",
+    title: "HIV Testing, Counselling & Screening",
+    desc: "Confidential HIV testing, pre- and post-test counselling, and comprehensive health screenings",
   },
   {
-    icon: Ambulance,
-    title: "Trauma Care",
-    desc: "Level-I trauma centre capability",
+    icon: ScanLine,
+    title: "CT Scans",
+    desc: "Head, chest, abdominal, pelvic, spinal, neck, cardiac, and contrast-enhanced CT scans for precise diagnosis",
   },
   {
-    icon: Shield,
-    title: "Preventive Health",
-    desc: "Screenings, vaccines & health plans",
+    icon: Waves,
+    title: "Ultrasound Scans",
+    desc: "Obstetric, abdominal, pelvic, renal, thyroid, scrotal, Doppler, and musculoskeletal ultrasound scans",
   },
 ];
 
@@ -501,12 +477,11 @@ export function Services() {
         /* ── secondary grid ── */
         .secondary-grid {
           display: grid;
-          grid-template-columns: repeat(4, 1fr);
+          grid-template-columns: repeat(2, 1fr);
           gap: 0.85rem;
           margin-bottom: 3rem;
         }
-        @media (max-width: 1024px) { .secondary-grid { grid-template-columns: repeat(2,1fr); } }
-        @media (max-width: 560px)  { .secondary-grid { grid-template-columns: 1fr; } }
+        @media (max-width: 560px) { .secondary-grid { grid-template-columns: 1fr; } }
 
         .sec-card {
           background: var(--white);
