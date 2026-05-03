@@ -31,9 +31,9 @@ const featured = [
     description:
       "Comprehensive maternity care from first antenatal visit through safe delivery and postnatal support — with experienced midwives and obstetricians available around the clock.",
     stats: ["24/7 maternity unit", "Safe deliveries"],
-    color: "#ec4899",
-    bg: "#fdf2f8",
-    border: "#fbcfe8",
+    color: "#800020",
+    bg: "#fff0f3",
+    border: "#fecdd3",
   },
   {
     icon: Scissors,
@@ -42,9 +42,9 @@ const featured = [
     description:
       "Minor and major surgical operations performed by experienced surgeons in a fully equipped theatre — ensuring patient safety and effective outcomes at every stage.",
     stats: ["Minor & major ops", "Experienced surgeons"],
-    color: "#800020",
-    bg: "#fff0f3",
-    border: "#fecdd3",
+    color: "#1a3fa8",
+    bg: "#eff3ff",
+    border: "#bfdbfe",
   },
   {
     icon: Stethoscope,
@@ -53,9 +53,9 @@ const featured = [
     description:
       "Complete outpatient and inpatient care including consultations, chronic disease management, malaria treatment, and wellness services for patients of all ages.",
     stats: ["Walk-ins welcome", "Inpatient admitted"],
-    color: "#0f1f5c",
-    bg: "#f0f4ff",
-    border: "#c7d2fe",
+    color: "#800020",
+    bg: "#fff0f3",
+    border: "#fecdd3",
   },
 ];
 
@@ -252,7 +252,7 @@ export function Services() {
 
           position: relative;
           overflow: hidden;
-          background: linear-gradient(180deg, #f8fafc 0%, #f1f5f9 100%);
+          background: #f8fafc;
           padding: 5rem 1.5rem 4rem;
         }
 
@@ -261,17 +261,17 @@ export function Services() {
           position: absolute;
           border-radius: 50%;
           filter: blur(90px);
-          opacity: 0.28;
+          opacity: 0.12;
           pointer-events: none;
         }
         .deco-a {
           width: 500px; height: 500px;
-          background: radial-gradient(circle, #93c5fd, transparent);
+          background: #1a3fa8;
           top: -100px; right: -120px;
         }
         .deco-b {
           width: 380px; height: 380px;
-          background: radial-gradient(circle, #fca5a5, transparent);
+          background: #800020;
           bottom: 0; left: -80px;
         }
 
@@ -542,7 +542,7 @@ export function Services() {
 
         /* ── cta banner ── */
         .cta-banner {
-          background: linear-gradient(135deg, var(--navy) 0%, #800020 100%);
+          background: #1a3fa8;
           border-radius: 1.5rem;
           padding: 2.5rem 2.5rem;
           display: flex;
@@ -554,12 +554,7 @@ export function Services() {
           overflow: hidden;
         }
         .cta-banner::before {
-          content: '';
-          position: absolute;
-          width: 300px; height: 300px;
-          background: radial-gradient(circle, #fca5a520, transparent);
-          top: -80px; right: 100px;
-          border-radius: 50%;
+          display: none;
         }
         .cta-heading {
           font-family: var(--fs-body);
@@ -581,7 +576,7 @@ export function Services() {
           flex-wrap: wrap;
         }
         .btn-teal {
-          background: linear-gradient(135deg, #1a3fa8, #800020);
+          background: #800020;
           color: #fff;
           font-family: var(--fs-ui);
           font-size: 0.88rem;
@@ -591,9 +586,9 @@ export function Services() {
           border-radius: 0.85rem;
           cursor: pointer;
           transition: transform 0.2s, box-shadow 0.2s;
-          box-shadow: 0 2px 10px #1a3fa820;
+          box-shadow: 0 2px 10px #80002030;
         }
-        .btn-teal:hover { transform: translateY(-2px); box-shadow: 0 4px 16px #80002030; }
+        .btn-teal:hover { transform: translateY(-2px); box-shadow: 0 4px 20px #80002050; }
         .btn-outline {
           background: transparent;
           color: #fff;
