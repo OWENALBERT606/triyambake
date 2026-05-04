@@ -5,6 +5,7 @@ import Link from 'next/link'
 import { usePathname } from 'next/navigation'
 import { Menu, X, Calendar, Phone } from 'lucide-react'
 import { BookingModal } from '@/components/BookingModal'
+import Image from 'next/image'
 
 const navLinks = [
   { label: 'Home',     href: '/'         },
@@ -52,14 +53,15 @@ export function Header() {
 
           {/* Logo */}
           <Link href="/" className="hd-logo">
-            <div className="hd-logo-icon">GG</div>
-            <div>
-              <span className="hd-logo-name">GGwaatiro<em>Hospital</em></span>
-              <span className="hd-logo-sub">Quality Healthcare · Uganda</span>
-            </div>
+            <Image
+              src="/ChatGPT%20Image%20May%204%2C%202026%2C%2011_23_10%20AM.png"
+              alt="Ggwaatiro Hospital Logo"
+              width={100}
+              height={32}
+              className="object-contain"
+              priority
+            />
           </Link>
-
-          {/* Desktop links */}
           <div className="hd-links">
             {navLinks.map(link => {
               const active = pathname === link.href ||
