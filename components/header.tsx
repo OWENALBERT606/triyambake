@@ -54,7 +54,7 @@ export function Header() {
           {/* Logo */}
           <Link href="/" className="hd-logo">
             <Image
-              src="/ChatGPT%20Image%20May%204%2C%202026%2C%2011_23_10%20AM.png"
+              src="/gati.png"
               alt="Ggwaatiro Hospital Logo"
               width={100}
               height={32}
