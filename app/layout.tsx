@@ -39,7 +39,6 @@ export const metadata: Metadata = {
     "Hospital Uganda",
     "Bweyogerere Hospital",
     "Kira Town Council Health",
-    "Dr Katumba Joseph",
     "Uganda Healthcare",
     "Maternity Uganda",
     "Emergency Hospital Kampala",

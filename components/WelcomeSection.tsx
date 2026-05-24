@@ -26,10 +26,8 @@ export function WelcomeSection() {
               Complete Medical Solutions in One Place
             </h2>
             <p className="text-slate-500 text-sm leading-relaxed mb-4">
-              Ggwaatiro Hospital is one of the oldest privately owned health facilities in Uganda, located in the central zone of Bweyogerere Ward, Kira Town Council — just 10 km from Kampala City Centre. Founded in 1989 by Dr. Katumba Joseph, we have grown from a small dispensary into a fully recognised hospital offering comprehensive medical services to thousands of patients every year.
+              Ggwaatiro Hospital is one of the oldest privately owned health facilities in Uganda, located in the central zone of Bweyogerere Ward, Kira Town Council — just 7 miles from Kampala City Centre. Founded in 1981, we have grown from a small dispensary into a fully recognised hospital offering comprehensive medical services to thousands of patients every year.
             </p>
-            <p className="text-slate-400 text-xs mb-1">Dr. Katumba Joseph, Founder &amp; CEO</p>
-            <p className="font-['Georgia'] italic text-[#0f1f5c] text-xl tracking-wide">Dr. Katumba Joseph</p>
           </div>
 
         </div>

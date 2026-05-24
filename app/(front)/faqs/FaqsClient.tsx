@@ -39,11 +39,11 @@ const faqs = [
   { id:"l1", cat:"lab", q:"What laboratory services do you offer?", a:"Our on-site laboratory provides a wide range of tests including blood tests, urinalysis, malaria tests, HIV tests, blood sugar, cholesterol, liver and kidney function tests, and more." },
   { id:"l2", cat:"lab", q:"Do you offer ultrasound and imaging?", a:"Yes. We have ultrasound scanning and imaging services available for obstetric, abdominal, and other diagnostic purposes." },
   { id:"l3", cat:"lab", q:"How long do lab results take?", a:"Most routine lab results are available within the same day. Some specialised tests may take longer. Our team will advise you on the expected turnaround time." },
-  { id:"lo1", cat:"location", q:"Where is Ggwaatiro Hospital located?", a:"We are located in Bweyogerere Ward, Kira Town Council — approximately 10 km from Kampala City Centre and about 200m off the Kampala–Jinja highway from Bweyogerere trading centre." },
+  { id:"lo1", cat:"location", q:"Where is Ggwaatiro Hospital located?", a:"We are located in Bweyogerere Ward, Kira Town Council — approximately 7 miles from Kampala City Centre and about 200m off the Kampala–Jinja highway from Bweyogerere trading centre." },
   { id:"lo2", cat:"location", q:"What are your working hours?", a:"We are open 24 hours a day, 7 days a week. You can visit or call us at any time." },
-  { id:"lo3", cat:"location", q:"How can I contact the hospital?", a:"Phone: +256 772 428 467. Email: gwatiro@gmail.com. P.O. Box 2933, Kampala." },
-  { id:"g1", cat:"general", q:"How long has Ggwaatiro Hospital been operating?", a:"Ggwaatiro Hospital was founded in 1989 by Dr. Katumba Joseph. It started as a small dispensary in Kirinya, became a nursing home in Bweyogerere, and was officially recognised as a hospital by the Ministry of Health in 2012." },
-  { id:"g2", cat:"general", q:"How many staff does the hospital have?", a:"The hospital currently has 87 employees — both medical and support staff — dedicated to providing quality healthcare to our patients." },
+  { id:"lo3", cat:"location", q:"How can I contact the hospital?", a:"Phone: +256 772 428 467 or +256 708 685 381. Email: gwatiro@gmail.com. P.O. Box 2933, Kampala." },
+  { id:"g1", cat:"general", q:"How long has Ggwaatiro Hospital been operating?", a:"Ggwaatiro Hospital was founded in 1981. It started as a small dispensary in Kirinya, became a nursing home in Bweyogerere, and was officially recognised as a hospital by the Ministry of Health in 2012." },
+  { id:"g2", cat:"general", q:"How many staff does the hospital have?", a:"The hospital has a dedicated team of medical and support staff committed to providing quality healthcare to our patients." },
   { id:"g3", cat:"general", q:"Do you accept insurance?", a:"Yes. We work with several insurance providers. Please contact us directly on +256 772 428 467 to confirm whether your specific insurance plan is accepted." },
   { id:"g4", cat:"general", q:"Is the hospital accessible by public transport?", a:"Yes. The hospital is located along the Kampala–Jinja highway in Bweyogerere, which is well served by taxis and boda bodas from Kampala and surrounding areas." },
 ];
@@ -105,7 +105,7 @@ export default function FaqsClient() {
               { icon: HelpCircle, label: `${faqs.length} Questions Answered` },
               { icon: Clock,      label: "Emergency: 24/7" },
               { icon: Phone,      label: "+256 772 428 467" },
-              { icon: Shield,     label: "Est. 1989" },
+              { icon: Shield,     label: "Est. 1981" },
             ].map((c, i) => { const Icon = c.icon; return <div key={c.label} className="fq-chip" style={{"--fi":`${i*0.08}s`} as React.CSSProperties}><Icon size={13}/> {c.label}</div>; })}
           </div>
         </div>

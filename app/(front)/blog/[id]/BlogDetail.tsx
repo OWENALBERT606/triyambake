@@ -87,7 +87,7 @@ export default function BlogDetail({ post, related }: { post: Post; related: Pos
                 </div>
               </div>
               <p className="bd-author-bio">
-                Our medical team at Ggwaatiro Hospital has been serving the Bweyogerere community since 1989,
+                Our medical team at Ggwaatiro Hospital has been serving the Bweyogerere community since 1981,
                 providing quality healthcare with professionalism and compassion.
               </p>
             </div>
@@ -96,7 +96,7 @@ export default function BlogDetail({ post, related }: { post: Post; related: Pos
             <div className="bd-sb-card bd-sb-dark">
               <p className="bd-sb-tag">Ggwaatiro Hospital</p>
               <h3 className="bd-sb-h3 bd-sb-h3-light">Need Medical Assistance?</h3>
-              <p className="bd-sb-p">We are located in Bweyogerere, Kira Town Council — 10 km from Kampala.</p>
+              <p className="bd-sb-p">We are located in Bweyogerere, Kira Town Council — 7 miles from Kampala.</p>
               <a href="tel:+256772428467" className="bd-sb-btn"><Phone size={13}/> +256 772 428 467</a>
               <Link href="/contact" className="bd-sb-link">Book an Appointment <ArrowRight size={12}/></Link>
             </div>

@@ -9,7 +9,7 @@ export function Footer() {
           <div className="space-y-4">
             <h3 className="text-2xl font-bold">Ggwaatiro Hospital</h3>
             <p className="text-background/80">
-              One of Uganda's oldest privately owned health facilities, serving the community since 1989.
+              One of Uganda's oldest privately owned health facilities, serving the community since 1981.
             </p>
             {/* Social Icons */}
             <div className="flex gap-4 pt-4">
@@ -33,22 +33,22 @@ export function Footer() {
             <h4 className="font-semibold text-lg">Quick Links</h4>
             <ul className="space-y-2">
               <li>
-                <a href="#" className="text-background/80 hover:text-primary transition-colors">
+                <a href="/" className="text-background/80 hover:text-primary transition-colors">
                   Home
                 </a>
               </li>
               <li>
-                <a href="#" className="text-background/80 hover:text-primary transition-colors">
+                <a href="/about" className="text-background/80 hover:text-primary transition-colors">
                   About Us
                 </a>
               </li>
               <li>
-                <a href="#" className="text-background/80 hover:text-primary transition-colors">
+                <a href="/services" className="text-background/80 hover:text-primary transition-colors">
                   Services
                 </a>
               </li>
               <li>
-                <a href="#" className="text-background/80 hover:text-primary transition-colors">
+                <a href="/about" className="text-background/80 hover:text-primary transition-colors">
                   Doctors
                 </a>
               </li>
@@ -60,22 +60,22 @@ export function Footer() {
             <h4 className="font-semibold text-lg">Services</h4>
             <ul className="space-y-2">
               <li>
-                <a href="#" className="text-background/80 hover:text-primary transition-colors">
-                  Cardiology
+                <a href="/services" className="text-background/80 hover:text-primary transition-colors">
+                  General Medicine
                 </a>
               </li>
               <li>
-                <a href="#" className="text-background/80 hover:text-primary transition-colors">
-                  General Health
+                <a href="/services" className="text-background/80 hover:text-primary transition-colors">
+                  Obstetrics & Maternity
                 </a>
               </li>
               <li>
-                <a href="#" className="text-background/80 hover:text-primary transition-colors">
-                  Family Care
+                <a href="/services" className="text-background/80 hover:text-primary transition-colors">
+                  HIV/AIDS Department
                 </a>
               </li>
               <li>
-                <a href="#" className="text-background/80 hover:text-primary transition-colors">
+                <a href="/services" className="text-background/80 hover:text-primary transition-colors">
                   Emergency
                 </a>
               </li>
@@ -88,13 +88,18 @@ export function Footer() {
             <div className="space-y-3">
               <div className="flex gap-3">
                 <MapPin className="w-5 h-5 flex-shrink-0 text-primary" />
-                <p className="text-background/80">Bweyogerere Ward, Kira Town Council, 10km from Kampala City Centre</p>
+                <p className="text-background/80">Bweyogerere Ward, Kira Town Council, 7 miles from Kampala City Centre</p>
               </div>
               <div className="flex gap-3">
                 <Phone className="w-5 h-5 flex-shrink-0 text-primary" />
-                <a href="tel:+256772428467" className="text-background/80 hover:text-primary transition-colors">
-                  +256 772 428 467
-                </a>
+                <div className="flex flex-col gap-1">
+                  <a href="tel:+256772428467" className="text-background/80 hover:text-primary transition-colors">
+                    +256 772 428 467
+                  </a>
+                  <a href="tel:+256708685381" className="text-background/80 hover:text-primary transition-colors">
+                    +256 708 685 381
+                  </a>
+                </div>
               </div>
               <div className="flex gap-3">
                 <Mail className="w-5 h-5 flex-shrink-0 text-primary" />
@@ -113,14 +118,14 @@ export function Footer() {
               &copy; 2026 Ggwaatiro Hospital. All rights reserved.
             </p>
             <div className="flex gap-6 text-sm">
-              <a href="#" className="text-background/70 hover:text-primary transition-colors">
+              <a href="/contact" className="text-background/70 hover:text-primary transition-colors">
                 Privacy Policy
               </a>
-              <a href="#" className="text-background/70 hover:text-primary transition-colors">
+              <a href="/contact" className="text-background/70 hover:text-primary transition-colors">
                 Terms of Service
               </a>
-              <a href="#" className="text-background/70 hover:text-primary transition-colors">
-                Sitemap
+              <a href="/contact" className="text-background/70 hover:text-primary transition-colors">
+                Contact Us
               </a>
             </div>
           </div>

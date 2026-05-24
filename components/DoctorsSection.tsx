@@ -18,8 +18,8 @@ export function DoctorsSection() {
           </h2>
           <ul className="space-y-4 mb-8">
             {[
-              "Our medical team has served the Bweyogerere community since 1989, bringing expertise across general medicine, maternity, surgery, and specialist care.",
-              "With 87 dedicated staff members — both medical and support — we ensure every patient receives personalised, compassionate care from qualified professionals.",
+              "Our medical team has served the Bweyogerere community since 1981, bringing expertise across general medicine, maternity, surgery, and specialist care.",
+              "Our dedicated staff — both medical and support — ensure every patient receives personalised, compassionate care from qualified professionals, including experienced obstetricians and gynaecologists.",
             ].map((item, i) => (
               <li key={i} className="flex gap-3 text-slate-500 text-sm leading-relaxed">
                 <span className="text-[#1a3fa8] font-bold mt-0.5 shrink-0">◦</span>

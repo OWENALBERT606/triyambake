@@ -22,17 +22,16 @@ const coreValues = [
 ];
 
 const milestones = [
-  { year: "1989", title: "Founded",           desc: "Dr. Katumba Joseph started a small dispensary in Kirinya with the help of his wife, driven by a vision to serve the community." },
+  { year: "1981", title: "Founded",           desc: "Ggwaatiro Hospital started as a small dispensary in Kirinya, driven by a vision to serve the community." },
   { year: "1995", title: "Nursing Home",      desc: "The facility was transferred to Bweyogerere and expanded into a nursing home, growing its capacity to serve more patients." },
   { year: "2012", title: "Hospital Status",   desc: "Declared and recognised as a hospital by the Ministry of Health — a milestone reflecting years of dedicated service." },
-  { year: "Today","title": "87 Staff Strong", desc: "The hospital currently has 87 employees — both medical and support staff — serving thousands of patients every year." },
+  { year: "Today","title": "Dedicated Staff", desc: "The hospital has a dedicated team of medical and support staff serving thousands of patients every year." },
 ];
 
 const stats = [
-  { v: "1989", l: "Est. Year" },
-  { v: "87+",  l: "Staff Members" },
+  { v: "1981", l: "Est. Year" },
   { v: "24/7", l: "Emergency Care" },
-  { v: "35+",  l: "Years Serving" },
+  { v: "44+",  l: "Years Serving" },
 ];
 
 /* ─── Hook ──────────────────────────────────────── */
@@ -72,7 +71,7 @@ export default function AboutPage() {
           <span className="page-eyebrow"><span className="ey-dash"/>Our Story<span className="ey-dash"/></span>
           <h1 className="hero-h1">About <em>Ggwaatiro Hospital</em></h1>
           <p className="hero-sub">
-            Since 1989, Ggwaatiro Hospital has been one of Uganda's oldest privately owned health
+            Since 1981, Ggwaatiro Hospital has been one of Uganda's oldest privately owned health
             facilities — serving the community of Bweyogerere with compassion, professionalism, and faith.
           </p>
           <div className="hero-stats">
@@ -100,16 +99,16 @@ export default function AboutPage() {
           </div>
           <div className="here-content">
             <span className="section-eyebrow">Who We Are</span>
-            <h2 className="section-h2">Serving Uganda<br /><em>Since 1989</em></h2>
+            <h2 className="section-h2">Serving Uganda<br /><em>Since 1981</em></h2>
             <p className="section-body">
               Ggwaatiro Hospital is one of the oldest privately owned health facilities in Uganda,
-              located in the central zone of Bweyogerere Ward, Kira Town Council — just 10 km from
+              located in the central zone of Bweyogerere Ward, Kira Town Council — just 7 miles from
               Kampala City Centre and about 200m off the Kampala–Jinja highway.
             </p>
             <p className="section-body">
-              Founded in 1989 by Dr. Katumba Joseph with the help of his wife, the hospital started
-              as a small dispensary in Kirinya, was later transferred to Bweyogerere as a nursing home,
-              and in 2012 was declared and recognised as a hospital by the Ministry of Health.
+              Founded in 1981, the hospital started as a small dispensary in Kirinya, was later
+              transferred to Bweyogerere as a nursing home, and in 2012 was declared and recognised
+              as a hospital by the Ministry of Health.
             </p>
             <div className="check-list">
               {[
@@ -118,7 +117,7 @@ export default function AboutPage() {
                 "24/7 ambulance services",
                 "Minor & major surgical operations",
                 "Digitalised dental & eye specialist services",
-                "87 dedicated staff — medical and support",
+                "Dedicated staff — medical and support",
               ].map(item => (
                 <div key={item} className="check-item">
                   <CheckCircle size={16} className="check-icon" />

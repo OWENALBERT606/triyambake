@@ -10,6 +10,8 @@ import {
   FlaskConical,
   ScanLine,
   Waves,
+  HeartHandshake,
+  Ribbon,
 } from "lucide-react";
 
 const featured = [
@@ -29,7 +31,7 @@ const featured = [
     title: "Obstetrics",
     tag: "Maternity & Birth",
     description:
-      "Comprehensive maternity care from first antenatal visit through safe delivery and postnatal support — with experienced midwives and obstetricians available around the clock.",
+      "Comprehensive maternity care from first antenatal visit through safe delivery and postnatal support — with experienced midwives, obstetricians, and gynaecologists available around the clock.",
     stats: ["24/7 maternity unit", "Safe deliveries"],
     color: "#800020",
     bg: "#fff0f3",
@@ -51,7 +53,7 @@ const featured = [
     title: "General Medicine",
     tag: "Primary Care",
     description:
-      "Complete outpatient and inpatient care including consultations, chronic disease management, malaria treatment, and wellness services for patients of all ages.",
+      "Complete outpatient and inpatient care including consultations, chronic disease management, and wellness services for patients of all ages.",
     stats: ["Walk-ins welcome", "Inpatient admitted"],
     color: "#800020",
     bg: "#fff0f3",
@@ -66,9 +68,14 @@ const secondary = [
     desc: "Contraception counselling, family planning, and vaccination services for all ages",
   },
   {
-    icon: FlaskConical,
-    title: "HIV Testing, Counselling & Screening",
-    desc: "Confidential HIV testing, pre- and post-test counselling, and comprehensive health screenings",
+    icon: Ribbon,
+    title: "HIV/AIDS Department",
+    desc: "Comprehensive HIV/AIDS care including testing, treatment, ARV management, adherence support, and ongoing patient follow-up",
+  },
+  {
+    icon: HeartHandshake,
+    title: "Counselling & Guidance",
+    desc: "Professional counselling and guidance services supporting mental health, psychosocial wellbeing, and life challenges",
   },
   {
     icon: ScanLine,

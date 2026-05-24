@@ -7,7 +7,7 @@ import { Phone, Mail, MapPin, Clock, Send, CheckCircle, AlertCircle, Shield, Che
 const faqs = [
   { q: "How do I book an appointment?", a: "You can call us on +256 772 428 467, walk in any time, or use the contact form on this page. We will confirm your appointment promptly." },
   { q: "Do you accept walk-in patients?", a: "Yes, we accept walk-in patients 24 hours a day, 7 days a week." },
-  { q: "Where exactly are you located?", a: "We are located in Bweyogerere Ward, Kira Town Council — about 10 km from Kampala City Centre and 200m off the Kampala–Jinja highway." },
+  { q: "Where exactly are you located?", a: "We are located in Bweyogerere Ward, Kira Town Council — about 7 miles from Kampala City Centre and 200m off the Kampala–Jinja highway." },
   { q: "What services do you offer?", a: "We offer general outpatient & inpatient services, maternity care, surgery, dental, eye care, laboratory, ultrasound, physiotherapy, and 24/7 ambulance services." },
   { q: "Do you have emergency services?", a: "Yes. Our emergency unit and ambulance service operate 24 hours a day, 7 days a week." },
 ];
@@ -70,7 +70,8 @@ export default function ContactPage() {
               <Phone size={16} />
               <div>
                 <p className="ct-ib-label">Phone</p>
-                <a href="tel:+256772428467" className="ct-ib-val">+256 772428467</a>
+                <a href="tel:+256772428467" className="ct-ib-val">+256 772 428 467</a>
+                <a href="tel:+256708685381" className="ct-ib-val">+256 708 685 381</a>
               </div>
             </div>
             <div className="ct-info-divider" />
@@ -166,7 +167,7 @@ export default function ContactPage() {
 
             <div className="ct-map-card">
               <h3 className="ct-card-title"><MapPin size={16}/> Find Us</h3>
-              <p className="ct-map-addr">Bweyogerere Ward, Kira Town Council<br/>~10 km from Kampala City Centre<br/>200m off Kampala–Jinja Highway</p>
+              <p className="ct-map-addr">Bweyogerere Ward, Kira Town Council<br/>~7 miles from Kampala City Centre<br/>200m off Kampala–Jinja Highway</p>
               <div className="ct-map-embed">
                 <iframe
                   src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3989.7!2d32.65!3d0.37!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMCczMy4yIk4gMzLCsDM5JzAuMCJF!5e0!3m2!1sen!2sug!4v1"

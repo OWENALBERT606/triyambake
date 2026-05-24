@@ -11,7 +11,7 @@ import { CallToAction } from '@/components/CallToAction';
 import { SpecialtyTabs } from '@/components/SpecialtyTabs';
 
 export const metadata: Metadata = {
-  title: "Ggwaatiro Hospital | Quality Healthcare in Uganda Since 1989",
+  title: "Ggwaatiro Hospital | Quality Healthcare in Uganda Since 1981",
   description:
     "Ggwaatiro Hospital in Bweyogerere, Kira Town Council offers outpatient, maternity, surgery, dental, eye care, lab, physiotherapy & 24/7 emergency services. Call +256 772 428 467.",
   keywords: [
@@ -22,15 +22,14 @@ export const metadata: Metadata = {
     "maternity hospital Uganda",
     "emergency hospital Kampala",
     "outpatient clinic Uganda",
-    "Dr Katumba Joseph",
     "private hospital Uganda",
     "24 hour hospital Kampala",
   ],
   alternates: { canonical: "/" },
   openGraph: {
-    title: "Ggwaatiro Hospital | Quality Healthcare in Uganda Since 1989",
+    title: "Ggwaatiro Hospital | Quality Healthcare in Uganda Since 1981",
     description:
-      "Comprehensive healthcare in Bweyogerere — outpatient, maternity, surgery, dental, eye care & 24/7 emergency. Serving Uganda since 1989.",
+      "Comprehensive healthcare in Bweyogerere — outpatient, maternity, surgery, dental, eye care & 24/7 emergency. Serving Uganda since 1981.",
     url: "/",
     images: [{ url: "/og-image.png", width: 1200, height: 630, alt: "Ggwaatiro Hospital" }],
   },
@@ -46,7 +45,7 @@ export default function HomePage() {
     "url": "https://ggwaatirahospital.com",
     "logo": "https://ggwaatirahospital.com/favicon.svg",
     "image": "https://ggwaatirahospital.com/og-image.png",
-    "description": "One of Uganda's oldest privately owned health facilities, founded in 1989 by Dr. Katumba Joseph. Located in Bweyogerere, Kira Town Council.",
+    "description": "One of Uganda's oldest privately owned health facilities, founded in 1981. Located in Bweyogerere, Kira Town Council.",
     "telephone": "+256772428467",
     "email": "gwatiro@gmail.com",
     "address": {
@@ -68,8 +67,7 @@ export default function HomePage() {
     "medicalSpecialty": [
       "General Practice","Obstetrics","Gynecology","Pediatrics","Surgery","Dentistry","Ophthalmology","Physiotherapy","Orthopedics"
     ],
-    "foundingDate": "1989",
-    "numberOfEmployees": { "@type": "QuantitativeValue", "value": 87 },
+    "foundingDate": "1981",
     "sameAs": []
   };
 

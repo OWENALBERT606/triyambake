@@ -8,13 +8,13 @@ import { ChevronLeft, ChevronRight, Phone } from "lucide-react";
 const slides = [
   {
     image: "/african-american-medic-analyzing-x-ray-scan-diagnosis.jpg",
-    tag: "Quality Healthcare · Since 1989",
+    tag: "Quality Healthcare · Since 1981",
     heading: "YOUR HEALTH IS",
     headingAccent: "OUR PRIORITY",
     bullets: [
       "Comprehensive outpatient & inpatient services for the whole family",
       "24/7 emergency care with a dedicated rapid-response team",
-      "Located in Bweyogerere, just 10 km from Kampala City Centre",
+      "Located in Bweyogerere, just 7 miles from Kampala City Centre",
     ],
     cta: { label: "Book Appointment", href: "/contact" },
   },

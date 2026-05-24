@@ -26,6 +26,8 @@ const services = [
   { id:"palliative",  icon: Heart,       label: "Palliative Care",                      color:"#2563eb", desc:"Compassionate care focused on comfort, dignity, and quality of life for patients with serious illness." },
   { id:"physio",      icon: Activity,    label: "Physiotherapy",                        color:"#1d4ed8", desc:"Rehabilitation for injuries, post-surgery recovery, stroke rehabilitation, and chronic pain management." },
   { id:"ortho",       icon: Stethoscope, label: "Orthopedics",                          color:"#1a3fa8", desc:"Diagnosis and treatment of bone, joint, and musculoskeletal conditions including fractures and arthritis." },
+  { id:"hiv",         icon: Heart,       label: "HIV/AIDS Department",                  color:"#800020", desc:"Comprehensive HIV/AIDS care including testing, ARV treatment, adherence support, counselling, and ongoing patient follow-up." },
+  { id:"counselling", icon: Users,       label: "Counselling & Guidance",               color:"#1535a0", desc:"Professional counselling and guidance services supporting mental health, psychosocial wellbeing, and personal challenges." },
 ];
 
 // Shield is not imported from lucide — use a simple inline SVG or re-use CheckCircle
@@ -51,10 +53,10 @@ export default function ServicesPage() {
           <h1 className="sv-h1">SERVICES<br/><em>OFFERED</em></h1>
           <p className="sv-sub">
             Here, we offer the following services — comprehensive healthcare for every member of your family,
-            delivered with professionalism and compassion since 1989.
+            delivered with professionalism and compassion since 1981.
           </p>
           <div className="sv-hero-stats">
-            {[{v:"17+",l:"Services"},{v:"87",l:"Staff Members"},{v:"24/7",l:"Emergency"},{v:"1989",l:"Est. Year"}].map((s,i) => (
+            {[{v:"19+",l:"Services"},{v:"24/7",l:"Emergency"},{v:"1981",l:"Est. Year"}].map((s,i) => (
               <div key={s.l} className="sv-hstat" style={{"--si":`${i*0.1}s`} as React.CSSProperties}>
                 <p className="sv-hstat-v">{s.v}</p>
                 <p className="sv-hstat-l">{s.l}</p>
@@ -105,10 +107,10 @@ export default function ServicesPage() {
       <section className="sv-why">
         <div className="sv-container sv-why-grid">
           {[
-            { icon: CheckCircle, title:"Experienced Team",    desc:"87 dedicated medical and support staff with decades of combined experience." },
+            { icon: CheckCircle, title:"Experienced Team",    desc:"Dedicated medical and support staff with decades of combined experience." },
             { icon: Ambulance,   title:"24/7 Emergency",      desc:"Our emergency unit and ambulance service never sleep — always ready for you." },
             { icon: Heart,       title:"Patient-Centred Care",desc:"Every patient is treated with dignity, compassion, and individual attention." },
-            { icon: Shield,      title:"Est. Since 1989",     desc:"Over 35 years of trusted healthcare service to the Bweyogerere community." },
+            { icon: Shield,      title:"Est. Since 1981",     desc:"Over 44 years of trusted healthcare service to the Bweyogerere community." },
           ].map((w, i) => {
             const Icon = w.icon;
             return (
