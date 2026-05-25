@@ -48,8 +48,8 @@ export function Footer() {
                 </a>
               </li>
               <li>
-                <a href="/about" className="text-background/80 hover:text-primary transition-colors">
-                  Doctors
+                <a href="/contact" className="text-background/80 hover:text-primary transition-colors">
+                  Contact Us
                 </a>
               </li>
             </ul>

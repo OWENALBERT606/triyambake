@@ -70,7 +70,7 @@ export default function ContactPage() {
               <Phone size={16} />
               <div>
                 <p className="ct-ib-label">Phone</p>
-                <a href="tel:+256772428453" className="ct-ib-val">+256 772 428 453</a>
+                <a href="tel:+256772428453" className="ct-ib-val">+256 772 428 453</a> <br/>
                 <a href="tel:+256708685381" className="ct-ib-val">+256 708 685 381</a>
               </div>
             </div>
