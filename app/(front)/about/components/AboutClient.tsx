@@ -141,15 +141,6 @@ export default function AboutPage() {
           <div className="mv-grid">
             {/* Vision */}
             <div className="mv-card">
-              <div className="mv-img-wrap">
-                <Image
-                  src="https://images.unsplash.com/photo-1666214280557-f1b5022eb634?q=80&w=1200&auto=format&fit=crop"
-                  alt="African doctor providing quality healthcare"
-                  fill
-                  className="object-cover"
-                />
-                <div className="mv-img-tint" />
-              </div>
               <div className="mv-text">
                 <span className="mv-tag">✦ Vision</span>
                 <h3 className="mv-title">To be the leading quality health care provider to the country and general public.</h3>
@@ -158,15 +149,6 @@ export default function AboutPage() {
 
             {/* Mission */}
             <div className="mv-card">
-              <div className="mv-img-wrap">
-                <Image
-                  src="/2223.jpg"
-                  alt="Black African doctor in hospital"
-                  fill
-                  className="object-cover"
-                />
-                <div className="mv-img-tint" />
-              </div>
               <div className="mv-text">
                 <span className="mv-tag">✦ Mission</span>
                 <h3 className="mv-title">To continue building the already existing services through modernization and professionalism of medical services to national and international standards.</h3>
@@ -357,12 +339,7 @@ export default function AboutPage() {
           border-radius:1rem; overflow:hidden;
           background:#ffffff10; border:1px solid #ffffff20;
         }
-        .mv-img-wrap { position:relative; height:220px; overflow:hidden; }
-        .mv-img-tint {
-          position:absolute; inset:0;
-          background:linear-gradient(to bottom, #1a3fa820, #0f1f5c60);
-        }
-        .mv-text { padding:1.75rem; }
+        .mv-text { padding:2.5rem; }
         .mv-tag {
           font-family:var(--ff-u); font-size:0.7rem; font-weight:700;
           letter-spacing:0.12em; text-transform:uppercase; color:#93c5fd;
