@@ -1,4 +1,4 @@
-'use client'
+﻿'use client'
 
 import { useState, useEffect } from 'react'
 import Link from 'next/link'
@@ -41,8 +41,8 @@ export function Header() {
             <span className="hd-pulse" />
             Emergency: 24 / 7 Open
           </span>
-          <a href="tel:+256772428467" className="hd-strip-item hd-strip-link">
-            <Phone size={11} /> +256 772 428 467
+          <a href="tel:+256772428453" className="hd-strip-item hd-strip-link">
+            <Phone size={11} /> +256 772 428 453
           </a>
         </div>
       </div>
@@ -81,7 +81,7 @@ export function Header() {
 
           {/* Desktop CTAs */}
           <div className="hd-ctas">
-            <a href="tel:+256772428467" className="hd-btn-ghost">
+            <a href="tel:+256772428453" className="hd-btn-ghost">
               <Phone size={14} /> Call Us
             </a>
             {/* ✅ Opens BookingModal */}
@@ -112,7 +112,7 @@ export function Header() {
             <div className="hd-mob-alert">
               <span className="hd-mob-alert-dot" />
               <span>Emergency dept open 24 / 7</span>
-              <a href="tel:+256772428467" className="hd-mob-alert-call">Call →</a>
+              <a href="tel:+256772428453" className="hd-mob-alert-call">Call →</a>
             </div>
 
             <div className="hd-mob-links">
@@ -132,8 +132,8 @@ export function Header() {
             </div>
 
             <div className="hd-mob-ctas">
-              <a href="tel:+256772428467" className="hd-mob-btn-outline">
-                <Phone size={14} /> +256 772 428 467
+              <a href="tel:+256772428453" className="hd-mob-btn-outline">
+                <Phone size={14} /> +256 772 428 453
               </a>
               {/* ✅ Opens BookingModal on mobile too */}
               <button

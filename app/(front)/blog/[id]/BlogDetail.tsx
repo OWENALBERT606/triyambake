@@ -68,7 +68,7 @@ export default function BlogDetail({ post, related }: { post: Post; related: Pos
                 <p className="bd-cta-sub">Our team at Ggwaatiro Hospital is ready to help.</p>
               </div>
               <div className="bd-cta-btns">
-                <a href="tel:+256772428467" className="bd-btn-primary"><Phone size={14}/> Call Us</a>
+                <a href="tel:+256772428453" className="bd-btn-primary"><Phone size={14}/> Call Us</a>
                 <Link href="/contact" className="bd-btn-ghost">Book Appointment <ArrowRight size={14}/></Link>
               </div>
             </div>
@@ -97,7 +97,7 @@ export default function BlogDetail({ post, related }: { post: Post; related: Pos
               <p className="bd-sb-tag">Ggwaatiro Hospital</p>
               <h3 className="bd-sb-h3 bd-sb-h3-light">Need Medical Assistance?</h3>
               <p className="bd-sb-p">We are located in Bweyogerere, Kira Town Council — 7 miles from Kampala.</p>
-              <a href="tel:+256772428467" className="bd-sb-btn"><Phone size={13}/> +256 772 428 467</a>
+              <a href="tel:+256772428453" className="bd-sb-btn"><Phone size={13}/> +256 772 428 453</a>
               <Link href="/contact" className="bd-sb-link">Book an Appointment <ArrowRight size={12}/></Link>
             </div>
 

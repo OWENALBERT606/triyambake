@@ -1,4 +1,4 @@
-import type { Metadata } from "next";
+﻿import type { Metadata } from "next";
 import { Services } from '@/components/services';
 import { Testimonials } from '@/components/testimonial';
 import { AppointmentForm } from '@/components/appointment-form';
@@ -13,7 +13,7 @@ import { SpecialtyTabs } from '@/components/SpecialtyTabs';
 export const metadata: Metadata = {
   title: "Ggwaatiro Hospital | Quality Healthcare in Uganda Since 1981",
   description:
-    "Ggwaatiro Hospital in Bweyogerere, Kira Town Council offers outpatient, maternity, surgery, dental, eye care, lab, physiotherapy & 24/7 emergency services. Call +256 772 428 467.",
+    "Ggwaatiro Hospital in Bweyogerere, Kira Town Council offers outpatient, maternity, surgery, dental, eye care, lab, physiotherapy & 24/7 emergency services. Call +256 772 428 453.",
   keywords: [
     "Ggwaatiro Hospital",
     "hospital Bweyogerere",
@@ -46,7 +46,7 @@ export default function HomePage() {
     "logo": "https://ggwaatirahospital.com/favicon.svg",
     "image": "https://ggwaatirahospital.com/og-image.png",
     "description": "One of Uganda's oldest privately owned health facilities, founded in 1981. Located in Bweyogerere, Kira Town Council.",
-    "telephone": "+256772428467",
+    "telephone": "+256772428453",
     "email": "gwatiro@gmail.com",
     "address": {
       "@type": "PostalAddress",

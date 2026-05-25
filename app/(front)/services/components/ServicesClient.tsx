@@ -1,4 +1,4 @@
-"use client";
+﻿"use client";
 
 import { useState } from "react";
 import Link from "next/link";
@@ -19,7 +19,7 @@ const services = [
   { id:"lab",         icon: FlaskConical,label: "Laboratory Services",                  color:"#1d4ed8", desc:"Full blood counts, malaria tests, HIV, blood sugar, liver & kidney function, and more — most results same day." },
   { id:"hndm",        icon: Heart,       label: "HN/DM Clinic Services",               color:"#1a3fa8", desc:"Dedicated clinic for hypertension and diabetes management, monitoring, and patient education." },
   { id:"surgery",     icon: Scissors,    label: "Minor & Major Surgical Operations",    color:"#1535a0", desc:"Fully equipped theatre for both minor procedures and major operations performed by experienced surgeons." },
-  { id:"ambulance",   icon: Ambulance,   label: "24/7 Ambulance Services",              color:"#2563eb", desc:"Round-the-clock emergency ambulance service. Call +256 772 428 467 for immediate dispatch." },
+  { id:"ambulance",   icon: Ambulance,   label: "24/7 Ambulance Services",              color:"#2563eb", desc:"Round-the-clock emergency ambulance service. Call +256 772 428 453 for immediate dispatch." },
   { id:"medication",  icon: Pill,        label: "General Medication",                   color:"#1d4ed8", desc:"On-site pharmacy dispensing a wide range of medications prescribed by our doctors." },
   { id:"obstetric",   icon: Baby,        label: "Obstetric & Gynaecological Program",   color:"#1a3fa8", desc:"Specialist care for women's reproductive health, pregnancy complications, and gynaecological conditions." },
   { id:"family",      icon: Users,       label: "Family Planning Services",             color:"#1535a0", desc:"Counselling and provision of family planning methods tailored to individual needs." },
@@ -133,7 +133,7 @@ export default function ServicesPage() {
           </div>
           <div className="sv-cta-btns">
             <Link href="/contact" className="sv-btn-primary"><Calendar size={15}/> Book Appointment</Link>
-            <a href="tel:+256772428467" className="sv-btn-ghost"><Phone size={15}/> +256 772 428 467</a>
+            <a href="tel:+256772428453" className="sv-btn-ghost"><Phone size={15}/> +256 772 428 453</a>
           </div>
         </div>
       </section>

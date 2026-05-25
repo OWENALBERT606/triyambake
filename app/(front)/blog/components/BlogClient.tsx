@@ -1,4 +1,4 @@
-"use client";
+﻿"use client";
 
 import { useState } from "react";
 import Link from "next/link";
@@ -152,7 +152,7 @@ export default function BlogClient() {
               <p className="bl-sb-cta-emoji">🏥</p>
               <h3 className="bl-sb-cta-title">Need Medical Help?</h3>
               <p className="bl-sb-cta-body">Our team is ready to assist you — walk in or call us today.</p>
-              <a href="tel:+256772428467" className="bl-sb-cta-btn"><Phone size={13}/> +256 772 428 467</a>
+              <a href="tel:+256772428453" className="bl-sb-cta-btn"><Phone size={13}/> +256 772 428 453</a>
               <Link href="/contact" className="bl-sb-cta-link">Book Appointment <ArrowRight size={12}/></Link>
             </div>
           </aside>

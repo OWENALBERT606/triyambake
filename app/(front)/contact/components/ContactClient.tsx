@@ -1,11 +1,11 @@
-"use client";
+﻿"use client";
 
 import { useRef, useState } from "react";
 import Image from "next/image";
 import { Phone, Mail, MapPin, Clock, Send, CheckCircle, AlertCircle, Shield, ChevronDown } from "lucide-react";
 
 const faqs = [
-  { q: "How do I book an appointment?", a: "You can call us on +256 772 428 467, walk in any time, or use the contact form on this page. We will confirm your appointment promptly." },
+  { q: "How do I book an appointment?", a: "You can call us on +256 772 428 453, walk in any time, or use the contact form on this page. We will confirm your appointment promptly." },
   { q: "Do you accept walk-in patients?", a: "Yes, we accept walk-in patients 24 hours a day, 7 days a week." },
   { q: "Where exactly are you located?", a: "We are located in Bweyogerere Ward, Kira Town Council — about 7 miles from Kampala City Centre and 200m off the Kampala–Jinja highway." },
   { q: "What services do you offer?", a: "We offer general outpatient & inpatient services, maternity care, surgery, dental, eye care, laboratory, ultrasound, physiotherapy, and 24/7 ambulance services." },
@@ -70,7 +70,7 @@ export default function ContactPage() {
               <Phone size={16} />
               <div>
                 <p className="ct-ib-label">Phone</p>
-                <a href="tel:+256772428467" className="ct-ib-val">+256 772 428 467</a>
+                <a href="tel:+256772428453" className="ct-ib-val">+256 772 428 453</a>
                 <a href="tel:+256708685381" className="ct-ib-val">+256 708 685 381</a>
               </div>
             </div>

@@ -1,4 +1,4 @@
-"use client";
+﻿"use client";
 
 import { useEffect, useRef, useState } from "react";
 import Image from "next/image";
@@ -246,7 +246,7 @@ export default function AboutPage() {
           </div>
           <div className="cta-btns">
             <Link href="/contact" className="cta-btn-primary"><Calendar size={16}/> Book an Appointment</Link>
-            <a href="tel:+256772428467" className="cta-btn-ghost"><Phone size={16}/> +256 772 428 467</a>
+            <a href="tel:+256772428453" className="cta-btn-ghost"><Phone size={16}/> +256 772 428 453</a>
           </div>
         </div>
       </section>

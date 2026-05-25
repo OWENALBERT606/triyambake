@@ -1,4 +1,4 @@
-"use client";
+﻿"use client";
 
 import { useState } from "react";
 import Link from "next/link";
@@ -20,7 +20,7 @@ const categories = [
 ];
 
 const faqs = [
-  { id:"a1", cat:"appointments", q:"How do I book an appointment?", a:"You can book by calling us on +256 772 428 467, walking in during working hours, or sending us a message through the Contact page. We will confirm your appointment as soon as possible." },
+  { id:"a1", cat:"appointments", q:"How do I book an appointment?", a:"You can book by calling us on +256 772 428 453, walking in during working hours, or sending us a message through the Contact page. We will confirm your appointment as soon as possible." },
   { id:"a2", cat:"appointments", q:"Do you accept walk-in patients?", a:"Yes, we accept walk-in patients 24 hours a day, 7 days a week. No appointment needed — our team is always ready to receive you." },
   { id:"a3", cat:"appointments", q:"What should I bring to my appointment?", a:"Please bring a valid ID, any previous medical records or test results relevant to your visit, and your insurance card if applicable. Arriving a few minutes early helps with registration." },
   { id:"a4", cat:"appointments", q:"Can I book for a family member?", a:"Yes. You can book on behalf of a family member, including children and elderly relatives. Please provide their details when booking." },
@@ -30,7 +30,7 @@ const faqs = [
   { id:"s4", cat:"services", q:"Do you have eye specialist services?", a:"Yes. Our eye specialists provide consultations, vision assessments, and treatment for various eye conditions." },
   { id:"s5", cat:"services", q:"Do you offer physiotherapy?", a:"Yes. Our physiotherapy department provides rehabilitation services for patients recovering from injuries, surgery, or managing chronic conditions." },
   { id:"e1", cat:"emergency", q:"Is emergency care available 24/7?", a:"Yes. Our emergency unit operates 24 hours a day, 7 days a week. Our team is always ready to respond to any medical emergency." },
-  { id:"e2", cat:"emergency", q:"Do you have an ambulance service?", a:"Yes. We operate a 24/7 ambulance service. Call +256 772 428 467 to request emergency transport." },
+  { id:"e2", cat:"emergency", q:"Do you have an ambulance service?", a:"Yes. We operate a 24/7 ambulance service. Call +256 772 428 453 to request emergency transport." },
   { id:"e3", cat:"emergency", q:"What counts as a medical emergency?", a:"Go to emergency immediately for: chest pain, difficulty breathing, severe bleeding, loss of consciousness, stroke symptoms, serious accidents, high fever in infants, or any condition you believe is life-threatening." },
   { id:"m1", cat:"maternity", q:"Do you offer antenatal care?", a:"Yes. We provide comprehensive antenatal care including regular check-ups, ultrasound scans, nutritional guidance, and birth planning throughout your pregnancy." },
   { id:"m2", cat:"maternity", q:"Can I deliver my baby at Ggwaatiro Hospital?", a:"Yes. We have a maternity unit with experienced midwives and obstetricians available around the clock for safe deliveries." },
@@ -41,10 +41,10 @@ const faqs = [
   { id:"l3", cat:"lab", q:"How long do lab results take?", a:"Most routine lab results are available within the same day. Some specialised tests may take longer. Our team will advise you on the expected turnaround time." },
   { id:"lo1", cat:"location", q:"Where is Ggwaatiro Hospital located?", a:"We are located in Bweyogerere Ward, Kira Town Council — approximately 7 miles from Kampala City Centre and about 200m off the Kampala–Jinja highway from Bweyogerere trading centre." },
   { id:"lo2", cat:"location", q:"What are your working hours?", a:"We are open 24 hours a day, 7 days a week. You can visit or call us at any time." },
-  { id:"lo3", cat:"location", q:"How can I contact the hospital?", a:"Phone: +256 772 428 467 or +256 708 685 381. Email: gwatiro@gmail.com. P.O. Box 2933, Kampala." },
+  { id:"lo3", cat:"location", q:"How can I contact the hospital?", a:"Phone: +256 772 428 453 or +256 708 685 381. Email: gwatiro@gmail.com. P.O. Box 2933, Kampala." },
   { id:"g1", cat:"general", q:"How long has Ggwaatiro Hospital been operating?", a:"Ggwaatiro Hospital was founded in 1981. It started as a small dispensary in Kirinya, became a nursing home in Bweyogerere, and was officially recognised as a hospital by the Ministry of Health in 2012." },
   { id:"g2", cat:"general", q:"How many staff does the hospital have?", a:"The hospital has a dedicated team of medical and support staff committed to providing quality healthcare to our patients." },
-  { id:"g3", cat:"general", q:"Do you accept insurance?", a:"Yes. We work with several insurance providers. Please contact us directly on +256 772 428 467 to confirm whether your specific insurance plan is accepted." },
+  { id:"g3", cat:"general", q:"Do you accept insurance?", a:"Yes. We work with several insurance providers. Please contact us directly on +256 772 428 453 to confirm whether your specific insurance plan is accepted." },
   { id:"g4", cat:"general", q:"Is the hospital accessible by public transport?", a:"Yes. The hospital is located along the Kampala–Jinja highway in Bweyogerere, which is well served by taxis and boda bodas from Kampala and surrounding areas." },
 ];
 
@@ -104,7 +104,7 @@ export default function FaqsClient() {
             {[
               { icon: HelpCircle, label: `${faqs.length} Questions Answered` },
               { icon: Clock,      label: "Emergency: 24/7" },
-              { icon: Phone,      label: "+256 772 428 467" },
+              { icon: Phone,      label: "+256 772 428 453" },
               { icon: Shield,     label: "Est. 1981" },
             ].map((c, i) => { const Icon = c.icon; return <div key={c.label} className="fq-chip" style={{"--fi":`${i*0.08}s`} as React.CSSProperties}><Icon size={13}/> {c.label}</div>; })}
           </div>
@@ -169,7 +169,7 @@ export default function FaqsClient() {
             <p className="fq-cta-sub">Our team is ready to answer any question you have.</p>
           </div>
           <div className="fq-cta-btns">
-            <a href="tel:+256772428467" className="fq-btn-primary"><Phone size={15}/> Call Us Now</a>
+            <a href="tel:+256772428453" className="fq-btn-primary"><Phone size={15}/> Call Us Now</a>
             <Link href="/contact" className="fq-btn-ghost"><Mail size={15}/> Send a Message</Link>
           </div>
         </div>

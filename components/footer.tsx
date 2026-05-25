@@ -1,4 +1,4 @@
-import { Facebook, Twitter, Instagram, Linkedin, Mail, Phone, MapPin } from 'lucide-react'
+﻿import { Facebook, Twitter, Instagram, Linkedin, Mail, Phone, MapPin } from 'lucide-react'
 
 export function Footer() {
   return (
@@ -93,8 +93,8 @@ export function Footer() {
               <div className="flex gap-3">
                 <Phone className="w-5 h-5 flex-shrink-0 text-primary" />
                 <div className="flex flex-col gap-1">
-                  <a href="tel:+256772428467" className="text-background/80 hover:text-primary transition-colors">
-                    +256 772 428 467
+                  <a href="tel:+256772428453" className="text-background/80 hover:text-primary transition-colors">
+                    +256 772 428 453
                   </a>
                   <a href="tel:+256708685381" className="text-background/80 hover:text-primary transition-colors">
                     +256 708 685 381

@@ -1,4 +1,4 @@
-"use client";
+﻿"use client";
 
 import { useInView } from "@/hooks/use-in-view";
 
@@ -18,8 +18,8 @@ export function CallToAction() {
         <h2 className="text-white text-2xl md:text-3xl font-bold mb-4">Take the First Step to Help</h2>
         <div className="w-12 h-0.5 bg-white/40 mx-auto mb-5" />
         <p className="text-white/80 text-sm mb-2">Call Ggwaatiro Hospital Now</p>
-        <a href="tel:+256772428467" className="text-white text-3xl md:text-5xl font-extrabold tracking-tight hover:text-blue-200 transition-colors">
-          +256 772 428 467
+        <a href="tel:+256772428453" className="text-white text-3xl md:text-5xl font-extrabold tracking-tight hover:text-blue-200 transition-colors">
+          +256 772 428 453
         </a>
       </div>
     </section>

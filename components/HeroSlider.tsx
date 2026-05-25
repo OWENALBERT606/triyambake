@@ -1,4 +1,4 @@
-"use client";
+﻿"use client";
 
 import { useState, useEffect } from "react";
 import Image from "next/image";
@@ -113,10 +113,10 @@ export function HeroSlider() {
                 {slide.cta.label}
               </Link>
               <a
-                href="tel:+256772428467"
+                href="tel:+256772428453"
                 className="inline-flex items-center gap-2 bg-white/10 hover:bg-white/20 border border-white/30 text-white font-semibold text-sm px-6 py-3 rounded transition-colors"
               >
-                <Phone className="w-4 h-4" /> +256 772 428 467
+                <Phone className="w-4 h-4" /> +256 772 428 453
               </a>
             </div>
           </div>
