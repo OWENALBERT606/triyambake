@@ -193,7 +193,7 @@ export default function HomePage() {
             </div>
             <div className="about-image reveal">
               <div className="image-card">
-                <img src="/assets/hero-bg-main.jpeg" alt="Infrastructure" />
+                <img src="/assets/hero-bg.png" alt="Infrastructure" />
                 <div className="experience-badge">Engineers at Core</div>
               </div>
             </div>
@@ -621,7 +621,7 @@ export default function HomePage() {
             <p className="section-subtitle center">A proven track record of executing complex power and industrial projects across India and Africa.</p>
           </div>
           <div className="experience-stats-grid reveal">
-            <div className="experience-stat-card"><span className="stat-value">USD 2.1M+</span><span className="stat-desc">Total Project Value Executed</span></div>
+            <div className="experience-stat-card"><span className="stat-value">USD 5.1M+</span><span className="stat-desc">Total Project Value Executed</span></div>
             <div className="experience-stat-card"><span className="stat-value">96+ km</span><span className="stat-desc">33kV Transmission Lines Delivered</span></div>
             <div className="experience-stat-card"><span className="stat-value">International</span><span className="stat-desc">Execution in Africa</span></div>
           </div>
@@ -647,7 +647,10 @@ export default function HomePage() {
               <div className="gallery-item"><img src="/assets/project-lines.png" alt="Rural Electrification" /></div>
               <div className="gallery-item"><img src="/assets/project-transformer.png" alt="Power Distribution" /></div>
             </div>
-          </div>
+            <div className="w-full flex justify-center mt-8 mt-4">
+              <button className="cta-button primary" onClick={() => window.location.href = "/projects"}>View Full Portfolio</button>
+            </div>
+          </div>  
         </div>
       </section>
 

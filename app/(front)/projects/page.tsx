@@ -17,11 +17,31 @@ function TimelineItem({ year, value, tasks, reverse }: { year: string; value: st
   );
 }
 
+const galleryImages = [
+  { src: "/assets/project-lines.png",       alt: "Transmission Line Construction" },
+  { src: "/assets/project-transformer.png", alt: "Substation Installation" },
+  { src: "/assets/project-solar.png",       alt: "Solar Park Execution" },
+  { src: "/assets/project-lines.png",       alt: "Rural Electrification" },
+  { src: "/assets/project-transformer.png", alt: "Power Distribution" },
+  { src: "/assets/hero-bg.png", alt: "Power Distribution" },
+  { src: "/assets/project-transformer.png", alt: "Power Distribution" },
+  { src: "/assets/hero-composite.png", alt: "Power Distribution" },
+  { src: "/assets/img1.jpeg", alt: "Power Distribution" },
+  { src: "/assets/img5.jpeg", alt: "Power Distribution" },
+  { src: "/assets/img6.jpeg", alt: "Power Distribution" },
+  { src: "/assets/img10.jpeg", alt: "Power Distribution" },
+  { src: "/assets/img11.jpeg", alt: "Power Distribution" },
+  { src: "/assets/img12.jpeg", alt: "Power Distribution" },
+  { src: "/assets/img18.jpeg", alt: "Power Distribution" },
+  { src: "/assets/img22.jpeg", alt: "Power Distribution" },
+  { src: "/assets/img24.jpeg", alt: "Power Distribution" },
+  { src: "/assets/img23.jpeg", alt: "Power Distribution" },
+];
+
 const sliderImages = [
-  "/assets/project-lines.png",
-  "/assets/project-transformer.png",
-  "/assets/project-solar.png",
-  "/assets/hero-bg-main.jpeg",
+  "/assets/hero-composite.png",
+  "/assets/img13.jpeg",
+  "/assets/img21.jpeg",
 ];
 
 export default function ProjectsPage() {
@@ -55,7 +75,7 @@ export default function ProjectsPage() {
             <span className="hero-light">Our</span>{" "}
             <span className="highlight">Projects</span>
           </h1>
-          <p>A proven track record of engineering excellence across continents.</p>
+          <p className="text-white">A proven track record of engineering excellence across continents.</p>
         </div>
       </section>
 
@@ -68,7 +88,7 @@ export default function ProjectsPage() {
             <p className="section-subtitle center">A proven track record of executing complex power and industrial projects across India and Africa.</p>
           </div>
           <div className="experience-stats-grid reveal">
-            <div className="experience-stat-card"><span className="stat-value">USD 2.1M+</span><span className="stat-desc">Total Project Value Executed</span></div>
+            <div className="experience-stat-card"><span className="stat-value">USD 5.1M+</span><span className="stat-desc">Total Project Value Executed</span></div>
             <div className="experience-stat-card"><span className="stat-value">96+ km</span><span className="stat-desc">33kV Transmission Lines Delivered</span></div>
             <div className="experience-stat-card"><span className="stat-value">International</span><span className="stat-desc">Execution in Africa</span></div>
           </div>
@@ -99,12 +119,11 @@ export default function ProjectsPage() {
           <div className="project-gallery reveal">
             <h3 className="gallery-title center">Project Gallery</h3>
             <div className="gallery-grid">
-              <div className="gallery-item"><img src="/assets/project-lines.png" alt="Transmission Line Construction" /></div>
-              <div className="gallery-item"><img src="/assets/project-transformer.png" alt="Substation Installation" /></div>
-              <div className="gallery-item"><img src="/assets/project-solar.png" alt="Solar Park Execution" /></div>
-              <div className="gallery-item"><img src="/assets/hero-bg-main.jpeg" alt="Infrastructure Project" /></div>
-              <div className="gallery-item"><img src="/assets/project-lines.png" alt="Rural Electrification" /></div>
-              <div className="gallery-item"><img src="/assets/project-transformer.png" alt="Power Distribution" /></div>
+              {galleryImages.map((img, i) => (
+                <div key={i} className="gallery-item">
+                  <img src={img.src} alt={img.alt} />
+                </div>
+              ))}
             </div>
           </div>
         </div>

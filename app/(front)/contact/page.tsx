@@ -15,7 +15,7 @@ export default function ContactPage() {
   return (
     <div className="contact-page">
       {/* Page Header */}
-      <section className="page-header" style={{ backgroundImage: `linear-gradient(rgba(15,23,42,0.85),rgba(15,23,42,0.85)),url(/assets/hero-bg-main.jpeg)` }}>
+      <section className="page-header" style={{ backgroundImage: `linear-gradient(rgba(15,23,42,0.85),rgba(15,23,42,0.85)),url(/assets/hero-composite.png)` }}>
         <div className="container">
           <h1>Contact <span className="highlight">Us</span></h1>
           <p>Get in touch with our team for inquiries, partnerships, or project consultations.</p>
