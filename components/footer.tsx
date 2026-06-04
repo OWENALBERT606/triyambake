@@ -1,136 +1,58 @@
-﻿import { Facebook, Twitter, Instagram, Linkedin, Mail, Phone, MapPin } from 'lucide-react'
+import Link from "next/link";
 
 export function Footer() {
   return (
-    <footer className="bg-foreground text-background">
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16">
-        <div className="grid grid-cols-1 md:grid-cols-4 gap-12 mb-12">
-          {/* Brand */}
-          <div className="space-y-4">
-            <h3 className="text-2xl font-bold">Ggwaatiro Hospital</h3>
-            <p className="text-background/80">
-              One of Uganda's oldest privately owned health facilities, serving the community since 1981.
-            </p>
-            {/* Social Icons */}
-            <div className="flex gap-4 pt-4">
-              <a href="#" className="hover:text-primary transition-colors">
-                <Facebook className="w-5 h-5" />
-              </a>
-              <a href="#" className="hover:text-primary transition-colors">
-                <Twitter className="w-5 h-5" />
-              </a>
-              <a href="#" className="hover:text-primary transition-colors">
-                <Instagram className="w-5 h-5" />
-              </a>
-              <a href="#" className="hover:text-primary transition-colors">
-                <Linkedin className="w-5 h-5" />
-              </a>
+    <footer id="contact" className="footer">
+      <div className="container">
+        <div className="footer-grid">
+          <div className="footer-brand">
+            <Link href="/">
+              <img src="/assets/logo.png" alt="Logo" className="footer-logo" />
+            </Link>
+            <p className="footer-tagline">Simple Impartial... Build the difference!</p>
+            <div className="footer-socials">
+              <a href="#" className="social-icon">IN</a>
+              <a href="#" className="social-icon">TW</a>
+              <a href="#" className="social-icon">FB</a>
             </div>
           </div>
-
-          {/* Quick Links */}
-          <div className="space-y-4">
-            <h4 className="font-semibold text-lg">Quick Links</h4>
-            <ul className="space-y-2">
-              <li>
-                <a href="/" className="text-background/80 hover:text-primary transition-colors">
-                  Home
-                </a>
-              </li>
-              <li>
-                <a href="/about" className="text-background/80 hover:text-primary transition-colors">
-                  About Us
-                </a>
-              </li>
-              <li>
-                <a href="/services" className="text-background/80 hover:text-primary transition-colors">
-                  Services
-                </a>
-              </li>
-              <li>
-                <a href="/contact" className="text-background/80 hover:text-primary transition-colors">
-                  Contact Us
-                </a>
-              </li>
+          <div className="footer-links-group">
+            <h4>Corporate</h4>
+            <ul>
+              <li><Link href="/about">About Triyambake</Link></li>
+              <li><a href="/about#vision">Mission &amp; Vision</a></li>
+              <li><a href="/about#leadership">Management</a></li>
+              <li><Link href="/clientele">Clientele</Link></li>
             </ul>
           </div>
-
-          {/* Services */}
-          <div className="space-y-4">
-            <h4 className="font-semibold text-lg">Services</h4>
-            <ul className="space-y-2">
-              <li>
-                <a href="/services" className="text-background/80 hover:text-primary transition-colors">
-                  General Medicine
-                </a>
-              </li>
-              <li>
-                <a href="/services" className="text-background/80 hover:text-primary transition-colors">
-                  Obstetrics & Maternity
-                </a>
-              </li>
-              <li>
-                <a href="/services" className="text-background/80 hover:text-primary transition-colors">
-                  HIV/AIDS Department
-                </a>
-              </li>
-              <li>
-                <a href="/services" className="text-background/80 hover:text-primary transition-colors">
-                  Emergency
-                </a>
-              </li>
+          <div className="footer-links-group">
+            <h4>Business Units</h4>
+            <ul>
+              <li><a href="/business#solar-epc">Solar EPC Projects</a></li>
+              <li><a href="/business#power-epc">Power T&amp;D EPC</a></li>
+              <li><a href="/business#om-services">O&amp;M Services</a></li>
+              <li><a href="/business#it-solutions">IT Solutions</a></li>
+              <li><a href="/business#hardware-supply">Hardware &amp; Fittings</a></li>
+              <li><a href="/business#hse">Safety &amp; Environment</a></li>
             </ul>
           </div>
-
-          {/* Contact */}
-          <div className="space-y-4">
-            <h4 className="font-semibold text-lg">Contact</h4>
-            <div className="space-y-3">
-              <div className="flex gap-3">
-                <MapPin className="w-5 h-5 flex-shrink-0 text-primary" />
-                <p className="text-background/80">Bweyogerere Ward, Kira Town Council, 7 miles from Kampala City Centre</p>
-              </div>
-              <div className="flex gap-3">
-                <Phone className="w-5 h-5 flex-shrink-0 text-primary" />
-                <div className="flex flex-col gap-1">
-                  <a href="tel:+256772428453" className="text-background/80 hover:text-primary transition-colors">
-                    +256 772 428 453
-                  </a>
-                  <a href="tel:+256708685381" className="text-background/80 hover:text-primary transition-colors">
-                    +256 708 685 381
-                  </a>
-                </div>
-              </div>
-              <div className="flex gap-3">
-                <Mail className="w-5 h-5 flex-shrink-0 text-primary" />
-                <a href="mailto:gwatiro@gmail.com" className="text-background/80 hover:text-primary transition-colors">
-                  gwatiro@gmail.com
-                </a>
-              </div>
-            </div>
+          <div className="footer-contact-info">
+            <h4>Get In Touch</h4>
+            <p>📧 info@triyambake.com</p>
+            <p>🌐 www.triyambake.com</p>
+            <p className="presence">NEW DELHI | INDIA</p>
           </div>
         </div>
-
-        {/* Divider */}
-        <div className="border-t border-background/20 pt-8">
-          <div className="flex flex-col md:flex-row justify-between items-center gap-4">
-            <p className="text-background/70 text-sm">
-              &copy; 2026 Ggwaatiro Hospital. All rights reserved.
-            </p>
-            <div className="flex gap-6 text-sm">
-              <a href="/contact" className="text-background/70 hover:text-primary transition-colors">
-                Privacy Policy
-              </a>
-              <a href="/contact" className="text-background/70 hover:text-primary transition-colors">
-                Terms of Service
-              </a>
-              <a href="/contact" className="text-background/70 hover:text-primary transition-colors">
-                Contact Us
-              </a>
+        <div className="footer-bottom">
+          <div className="footer-bottom-content">
+            <p>&copy; 2019 Triyambake</p>
+            <div className="legal-links">
+              <a href="#">Privacy Policy</a>
+              <a href="#">Terms of Service</a>
             </div>
           </div>
         </div>
       </div>
     </footer>
-  )
+  );
 }
