@@ -622,7 +622,7 @@ export default function HomePage() {
           </div>
           <div className="experience-stats-grid reveal">
             <div className="experience-stat-card"><span className="stat-value">USD 5.1M+</span><span className="stat-desc">Total Project Value Executed</span></div>
-            <div className="experience-stat-card"><span className="stat-value">96+ km</span><span className="stat-desc">33kV Transmission Lines Delivered</span></div>
+            <div className="experience-stat-card"><span className="stat-value">250+ km</span><span className="stat-desc">33kV Transmission Lines Delivered</span></div>
             <div className="experience-stat-card"><span className="stat-value">International</span><span className="stat-desc">Execution in Africa</span></div>
           </div>
           <div className="experience-content reveal">
@@ -634,7 +634,7 @@ export default function HomePage() {
               <TimelineItem year="2025 - 2026" value="USD 760,060.84" tasks={["Design, Supply & Installation of 64 km of 33kV HT Power Line Hardware","Supply, Installation & Training of Industrial Machinery for Transformer Manufacturing Plant","Supply of Clean Energy Cooking Equipment"]} />
               <TimelineItem year="2024 - 2025" value="USD 297,456" tasks={["Design, Supply & Installation of 32 km of 33kV HT Power Line Equipment","Supply, Installation & Training of Industrial Manufacturing Machinery"]} reverse />
               <TimelineItem year="2022 - 2023" value="USD 221,088" tasks={["Design, Supply & Installation of LV & MV Line Materials for 33kV Power Networks","Supply, Installation & Training of Paver Block, Cement Concrete Brick & Industrial Machinery"]} />
-              <TimelineItem year="2021 - 2022" value="USD 126,969" tasks={["Design & Supply of LV Line Materials for 33kV Dedicated Evacuation Line","(Kinyara-Hoima Line under UMEME Project)"]} reverse />
+              <TimelineItem year="2021 - 2022" value="USD 126,2509" tasks={["Design & Supply of LV Line Materials for 33kV Dedicated Evacuation Line","(Kinyara-Hoima Line under UMEME Project)"]} reverse />
             </div>
           </div>
           <div className="project-gallery reveal">
