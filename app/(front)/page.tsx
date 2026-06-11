@@ -434,7 +434,7 @@ export default function HomePage() {
         <div className="container">
           <div className="detailed-grid reverse">
             <div className="detailed-image reveal">
-              <img src="/assets/it-solutions.png" alt="IT Solutions" className="rounded-image" />
+              <img src="/new/WhatsApp Image 2026-06-11 at 10.29.31.jpeg" alt="IT Solutions" className="rounded-image" />
             </div>
             <div className="detailed-content reveal">
               <span className="badge">Digital Transformation</span>
@@ -622,7 +622,7 @@ export default function HomePage() {
           </div>
           <div className="experience-stats-grid reveal">
             <div className="experience-stat-card"><span className="stat-value">USD 5.1M+</span><span className="stat-desc">Total Project Value Executed</span></div>
-            <div className="experience-stat-card"><span className="stat-value">250+ km</span><span className="stat-desc">33kV Transmission Lines Delivered</span></div>
+            <div className="experience-stat-card"><span className="stat-value">250+ km</span><span className="stat-desc">33kV Distribution line</span></div>
             <div className="experience-stat-card"><span className="stat-value">International</span><span className="stat-desc">Execution in Africa</span></div>
           </div>
           <div className="experience-content reveal">

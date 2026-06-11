@@ -43,10 +43,10 @@ export default function AboutPage() {
   return (
     <div className="about-page">
       {/* Page Header */}
-      <section className="page-header" style={{ backgroundImage: `linear-gradient(rgba(15,23,42,0.85),rgba(15,23,42,0.85)),url(/assets/hero-bg-main.jpeg)` }}>
+      <section className="page-header" style={{ backgroundImage: `linear-gradient(rgba(15,23,42,0.85),rgba(15,23,42,0.85)),url(/assets/img13.jpeg)` }}>
         <div className="container">
           <h1>About <span className="highlight">Triyambake</span></h1>
-          <p>Engineers at heart, building infrastructure for the future.</p>
+          <p>Simple Impartial...... Building the difference</p>
         </div>
       </section>
 
@@ -80,7 +80,7 @@ export default function AboutPage() {
             </div>
             <div className="about-image reveal">
               <div className="image-card">
-                <img src="/assets/hero-bg-main.jpeg" alt="Infrastructure" />
+                <img src="/assets/project-lines.png" alt="Infrastructure" />
                 <div className="experience-badge">10+ Years Experience</div>
               </div>
             </div>

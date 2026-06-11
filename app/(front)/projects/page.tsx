@@ -18,13 +18,13 @@ function TimelineItem({ year, value, tasks, reverse }: { year: string; value: st
 }
 
 const galleryImages = [
-  { src: "/assets/project-lines.png",       alt: "Transmission Line Construction" },
+  { src: "/new/WhatsApp Image 2026-06-11 at 10.17.57.jpeg",       alt: "Transmission Line Construction" },
   { src: "/assets/project-transformer.png", alt: "Substation Installation" },
   { src: "/assets/project-solar.png",       alt: "Solar Park Execution" },
   { src: "/assets/project-lines.png",       alt: "Rural Electrification" },
-  { src: "/assets/project-transformer.png", alt: "Power Distribution" },
+  { src: "/new/WhatsApp Image 2026-06-11 at 10.17.58.jpeg", alt: "Power Distribution" },
   { src: "/assets/hero-bg.png", alt: "Power Distribution" },
-  { src: "/assets/project-transformer.png", alt: "Power Distribution" },
+  { src: "/new/WhatsApp Image 2026-06-11 at 10.17.59.jpeg", alt: "Power Distribution" },
   { src: "/assets/hero-composite.png", alt: "Power Distribution" },
   { src: "/assets/img1.jpeg", alt: "Power Distribution" },
   { src: "/assets/img5.jpeg", alt: "Power Distribution" },
@@ -35,8 +35,15 @@ const galleryImages = [
   { src: "/assets/img18.jpeg", alt: "Power Distribution" },
   { src: "/assets/img22.jpeg", alt: "Power Distribution" },
   { src: "/assets/img24.jpeg", alt: "Power Distribution" },
-  { src: "/assets/img23.jpeg", alt: "Power Distribution" },
-  { src: "/WhatsApp Image 2026-06-06 at 13.05.55.jpeg", alt: "Power Distribution" },
+  { src: "/new/WhatsApp Image 2026-06-11 at 10.18.02.jpeg", alt: "Power Distribution" },
+  { src: "/new/WhatsApp Image 2026-06-11 at 10.18.01.jpeg", alt: "Power Distribution" },
+  { src: "/new/WhatsApp Image 2026-06-11 at 10.18.01 (3).jpeg", alt: "Power Distribution" },
+  { src: "/new/WhatsApp Image 2026-06-11 at 10.18.01 (2).jpeg", alt: "Power Distribution" },
+  { src: "/new/WhatsApp Image 2026-06-11 at 10.18.01 (1).jpeg", alt: "Power Distribution" },
+  { src: "/new/WhatsApp Image 2026-06-11 at 10.18.00.jpeg", alt: "Power Distribution" },
+  { src: "/new/WhatsApp Image 2026-06-11 at 10.29.31.jpeg", alt: "Power Distribution" },
+  { src: "/new/WhatsApp Image 2026-06-11 at 10.52.25.jpeg", alt: "Power Distribution" },
+  { src: "/new/WhatsApp Image 2026-06-11 at 10.53.56.jpeg", alt: "Power Distribution" },
 ];
 
 const sliderImages = [

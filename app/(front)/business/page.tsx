@@ -117,7 +117,7 @@ export default function BusinessPage() {
         <div className="container">
           <div className="detailed-grid reverse">
             <div className="detailed-image reveal">
-              <img src="/assets/it-solutions.png" alt="IT Solutions" className="rounded-image" />
+              <img src="/new/WhatsApp Image 2026-06-11 at 10.29.31.jpeg" alt="IT Solutions" className="rounded-image" />
             </div>
             <div className="detailed-content reveal">
               <span className="badge">Digital Transformation</span>
@@ -139,7 +139,7 @@ export default function BusinessPage() {
           <div className="section-header reveal">
             <span className="badge">Manufacturing &amp; Export</span>
             <h2 className="section-title center">T&amp;D LINE HARDWARE, FITTING &amp; ACCESSORIES</h2>
-            <p className="section-subtitle center">Triyambake under the brand name Triyavolt is a leading manufacturer and exporter of overhead line hardware and accessories for the power sector — based in Delhi NCR, India. Exporting to Uganda, Kenya, Tanzania, Rwanda and Burundi.</p>
+            <p className="section-subtitle center">Triyambake under the brand name TriyaVolt is a leading manufacturer and exporter of overhead line hardware and accessories for the power sector — based in Delhi NCR, India. Exporting to East African Community (Uganda, Kenya, Tanzania, Rwanda and Burundi , Somalia, DRC, South Sudan).</p>
           </div>
 
           <div className="detailed-grid reveal" style={{ marginBottom: "5rem" }}>
@@ -161,7 +161,7 @@ export default function BusinessPage() {
                 <tr><td>Nature of Business</td><td>Manufacture and Exporter</td></tr>
                 <tr><td>Year of Establishment</td><td>2019</td></tr>
                 <tr><td>Number of Employees</td><td>10–20</td></tr>
-                <tr><td>Annual Turnover</td><td>Rs. 01–06 Crore (US$ 1 Million+)</td></tr>
+                <tr><td>Annual Turnover</td><td>US$ 1 Million+</td></tr>
                 <tr><td>IEC</td><td>AAHCT5604M</td></tr>
                 <tr><td>GSTN</td><td>07AAHCT5604M1Z1</td></tr>
                 <tr><td>CIN</td><td>U74999BR2019PTC043709</td></tr>
