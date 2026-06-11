@@ -25,7 +25,7 @@ export default function BusinessPage() {
   return (
     <div className="business-page">
       {/* Page Header */}
-      <section className="page-header" style={{ backgroundImage: `linear-gradient(rgba(15,23,42,0.85),rgba(15,23,42,0.85)),url(/assets/hero-bg-main.jpeg)` }}>
+      <section className="page-header" style={{ backgroundImage: `linear-gradient(rgba(15,23,42,0.85),rgba(15,23,42,0.85)),url(/new/WhatsApp Image 2026-06-11 at 10.18.01.jpeg)` }}>
         <div className="container">
           <h1>Business <span className="highlight">Units</span></h1>
           <p>Comprehensive EPC solutions across power, infrastructure, and technology.</p>
