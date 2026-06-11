@@ -97,7 +97,7 @@ export default function ProjectsPage() {
           </div>
           <div className="experience-stats-grid reveal">
             <div className="experience-stat-card"><span className="stat-value">USD 5.1M+</span><span className="stat-desc">Total Project Value Executed</span></div>
-            <div className="experience-stat-card"><span className="stat-value">250+ km</span><span className="stat-desc">33kV Transmission Lines Delivered</span></div>
+            <div className="experience-stat-card"><span className="stat-value">250+ km</span><span className="stat-desc">33kV Distribution Lines</span></div>
             <div className="experience-stat-card"><span className="stat-value">International</span><span className="stat-desc">Execution in Africa</span></div>
           </div>
           <div className="experience-content reveal">
