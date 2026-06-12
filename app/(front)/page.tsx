@@ -495,49 +495,23 @@ export default function HomePage() {
             </div>
           </div>
           <div className="reveal" style={{ marginBottom: "3rem" }}>
-            <div className="hardware-products-grid">
-              <div className="hardware-product-card">
-                <div className="hardware-product-header">AB CABLE ACCESSORIES</div>
-                <div className="hardware-product-body">
-                  <table className="hardware-spec-table"><tbody>
-                    <tr><td>Material</td><td>Metal</td></tr>
-                    <tr><td>Thickness</td><td>Standard</td></tr>
-                    <tr><td>Application</td><td>Cable Use, Industrial</td></tr>
-                    <tr><td>Color</td><td>Silver</td></tr>
-                    <tr><td>Country of Origin</td><td>India</td></tr>
-                  </tbody></table>
-                </div>
-              </div>
-              <div className="hardware-product-card">
-                <div className="hardware-product-header">SUSPENSION CLAMP</div>
-                <div className="hardware-product-body">
-                  <table className="hardware-spec-table"><tbody>
-                    <tr><td>Material</td><td>Aluminium</td></tr>
-                    <tr><td>Application</td><td>Suspension Joining</td></tr>
-                    <tr><td>Weight</td><td>Vary as per sizes</td></tr>
-                    <tr><td>Grade</td><td>Industrial</td></tr>
-                    <tr><td>Feature</td><td>Easy to Fit, High Quality</td></tr>
-                  </tbody></table>
-                </div>
-              </div>
-              <div className="hardware-product-card">
-                <div className="hardware-product-header">FULL PRODUCT RANGE</div>
-                <div className="hardware-product-body">
-                  <ul className="hardware-range-list">
-                    <li>Pin Spindle for Pin Insulator</li>
-                    <li>Stay Set &amp; HT Stay Set</li>
-                    <li>Earth Rod &amp; Earthing Pipe</li>
-                    <li>Cross Arms &amp; Gantry Structures</li>
-                    <li>PG Clamps &amp; Connectors</li>
-                    <li>D Iron Clamps &amp; D Iron B Rackets</li>
-                    <li>Stainless Steel U Bolt</li>
-                    <li>Tension Clamp &amp; Guy Grip</li>
-                    <li>Copper Earthing Electrode</li>
-                    <li>Electrical Fittings &amp; Insulator Pin</li>
-                  </ul>
-                </div>
-              </div>
-            </div>
+            <h3 style={{ fontSize: "1.6rem", marginBottom: "3rem", textAlign: "center" }}>Our Products</h3>
+            <ul className="hardware-range-list" style={{ maxWidth: "800px", margin: "0 auto", columns: 2, columnGap: "3rem" }}>
+              <li>Protective Fittings</li>
+              <li>Hot Dip Galvanized Accessories</li>
+              <li>Various Bolts</li>
+              <li>Stay Rod</li>
+              <li>Overhead Line Hardwares</li>
+              <li>Porcelain Insulator</li>
+              <li>Composite Insulator</li>
+              <li>Surge Arrestor &amp; Cutout Fuse</li>
+              <li>ABC Cable Accessories</li>
+              <li>Dead End Clamp</li>
+              <li>Suspension Clamp &amp; Anchor Bracket</li>
+              <li>Cable Lug &amp; Connector</li>
+              <li>Terminal Connector</li>
+              <li>Helical Cable Fittings</li>
+            </ul>
           </div>
           <div className="reveal">
             <h3 style={{ fontSize: "1.4rem", marginBottom: "2rem", textAlign: "center" }}>ISO Certifications</h3>

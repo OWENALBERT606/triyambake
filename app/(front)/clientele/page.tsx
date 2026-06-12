@@ -64,7 +64,7 @@ export default function ClientelePage() {
       <section id="clients" className="section-padding clients-section">
         <div className="container">
           <div className="section-header reveal">
-            <h2 className="section-title center">Strategic Partners</h2>
+            <h2 className="section-title center">Strategic Partners whom we served</h2>
             <p className="section-subtitle center">Our multi-region experience allows us to serve diverse client needs with precision.</p>
           </div>
           <div className="tab-content reveal">

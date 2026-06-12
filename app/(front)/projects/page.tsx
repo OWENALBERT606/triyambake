@@ -79,9 +79,9 @@ export default function ProjectsPage() {
           ))}
         </div>
         <div className="container hero-content">
-          <h1>
-            <span className="hero-light">Our</span>{" "}
-            <span className="highlight">Projects</span>
+          <h1 className="text-3xl md:text-5xl font-bold mb-4">
+            <span className="text-blue-500">Our</span>{" "}
+            <span className=" text-white">Projects</span>
           </h1>
           <p className="text-white">A proven track record of engineering excellence across continents.</p>
         </div>

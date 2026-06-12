@@ -46,7 +46,7 @@ export default function AboutPage() {
       <section className="page-header" style={{ backgroundImage: `linear-gradient(rgba(15,23,42,0.85),rgba(15,23,42,0.85)),url(/assets/img13.jpeg)` }}>
         <div className="container">
           <h1>About <span className="highlight">Triyambake</span></h1>
-          <p>Simple Impartial...... Building the difference</p>
+          <p>Simple Impartial...... Build the difference</p>
         </div>
       </section>
 
@@ -85,7 +85,7 @@ export default function AboutPage() {
               </div>
             </div>
           </div>
-        </div>
+        </div>Building the difference
       </section>
 
       {/* Management */}
