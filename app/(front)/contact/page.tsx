@@ -1,8 +1,11 @@
 "use client";
 
-import { useEffect } from "react";
+import { useEffect, useState } from "react";
 
 export default function ContactPage() {
+  const [form, setForm] = useState({ name: "", email: "", subject: "Project Inquiry", message: "" });
+  const [status, setStatus] = useState<"idle" | "loading" | "success" | "error">("idle");
+
   useEffect(() => {
     const observer = new IntersectionObserver(
       (entries) => entries.forEach((e) => { if (e.isIntersecting) e.target.classList.add("active"); }),
@@ -11,6 +14,23 @@ export default function ContactPage() {
     document.querySelectorAll(".reveal").forEach((el) => observer.observe(el));
     return () => observer.disconnect();
   }, []);
+
+  const handleSubmit = async (e: React.FormEvent) => {
+    e.preventDefault();
+    setStatus("loading");
+    try {
+      const res = await fetch("/api/contact", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify(form),
+      });
+      if (!res.ok) throw new Error();
+      setStatus("success");
+      setForm({ name: "", email: "", subject: "Project Inquiry", message: "" });
+    } catch {
+      setStatus("error");
+    }
+  };
 
   return (
     <div className="contact-page">
@@ -63,30 +83,73 @@ export default function ContactPage() {
             </div>
 
             <div className="contact-form-panel reveal">
-              <form className="contact-form" onSubmit={(e) => e.preventDefault()}>
-                <div className="form-group">
-                  <label>Full Name</label>
-                  <input type="text" placeholder="Your Name" required />
+              {status === "success" ? (
+                <div style={{ textAlign: "center", padding: "3rem 1rem" }}>
+                  <div style={{ fontSize: "3rem", marginBottom: "1rem" }}>✅</div>
+                  <h3 style={{ marginBottom: "0.5rem" }}>Message Sent!</h3>
+                  <p style={{ color: "#64748b" }}>Thank you for reaching out. We'll get back to you shortly.</p>
+                  <button
+                    onClick={() => setStatus("idle")}
+                    className="cta-button primary"
+                    style={{ marginTop: "1.5rem" }}
+                  >
+                    Send Another Message
+                  </button>
                 </div>
-                <div className="form-group">
-                  <label>Email Address</label>
-                  <input type="email" placeholder="email@example.com" required />
-                </div>
-                <div className="form-group">
-                  <label>Subject</label>
-                  <select>
-                    <option>Project Inquiry</option>
-                    <option>Business Partnership</option>
-                    <option>Career Opportunity</option>
-                    <option>Other</option>
-                  </select>
-                </div>
-                <div className="form-group">
-                  <label>Message</label>
-                  <textarea rows={5} placeholder="How can we help you?"></textarea>
-                </div>
-                <button type="submit" className="cta-button primary full-width">Send Message</button>
-              </form>
+              ) : (
+                <form className="contact-form" onSubmit={handleSubmit}>
+                  <div className="form-group">
+                    <label>Full Name</label>
+                    <input
+                      type="text"
+                      placeholder="Your Name"
+                      required
+                      value={form.name}
+                      onChange={(e) => setForm({ ...form, name: e.target.value })}
+                    />
+                  </div>
+                  <div className="form-group">
+                    <label>Email Address</label>
+                    <input
+                      type="email"
+                      placeholder="email@example.com"
+                      required
+                      value={form.email}
+                      onChange={(e) => setForm({ ...form, email: e.target.value })}
+                    />
+                  </div>
+                  <div className="form-group">
+                    <label>Subject</label>
+                    <select
+                      value={form.subject}
+                      onChange={(e) => setForm({ ...form, subject: e.target.value })}
+                    >
+                      <option>Project Inquiry</option>
+                      <option>Business Partnership</option>
+                      <option>Career Opportunity</option>
+                      <option>Other</option>
+                    </select>
+                  </div>
+                  <div className="form-group">
+                    <label>Message</label>
+                    <textarea
+                      rows={5}
+                      placeholder="How can we help you?"
+                      required
+                      value={form.message}
+                      onChange={(e) => setForm({ ...form, message: e.target.value })}
+                    />
+                  </div>
+                  {status === "error" && (
+                    <p style={{ color: "#ef4444", fontSize: "14px", marginBottom: "1rem" }}>
+                      Something went wrong. Please try again or email us directly.
+                    </p>
+                  )}
+                  <button type="submit" className="cta-button primary full-width" disabled={status === "loading"}>
+                    {status === "loading" ? "Sending…" : "Send Message"}
+                  </button>
+                </form>
+              )}
             </div>
           </div>
         </div>
